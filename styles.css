@@ -29,7 +29,7 @@
   flex-wrap: nowrap;
 }
 
-.headbar-menu{
+.headbar-menu {
   display: flex;
   background: #3c3a39;
   width: 100%;
@@ -74,7 +74,7 @@ p {
   background-repeat: no-repeat;
   overflow: hidden;
   flex: 1;
-  margin-top: 0rem;
+  margin-top: 0;
 }
 
 .ptext {
@@ -107,7 +107,7 @@ p {
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 32px;
-  color: #ffffff;
+  color: #fff;
   margin-top: 0;
   margin-bottom: 0.8125rem;
   font-style: normal;
@@ -126,8 +126,8 @@ p {
 
 li {
   list-style-type: none;
- }
- 
+}
+
 .navicon {
   display: flex;
   width: 100vh;
@@ -141,41 +141,41 @@ i {
 
 @media screen and (min-width: 375px) {
   .container_text {
-    width:100%;
+    width:  100%;
     height: 100%;
     margin-top: 1%;
     padding-top: 0.4rem;
     gap: 0.09rem;
-} 
+  }
 
   .headbar-menu {
     width: 100%;
-}
+  }
 
   .headline {
     width: 100%;
     height: 100%;
-}
+  }
 
   .description {
     font-size: 0.6rem;
-    width: 80%
-}
+    width: 80%;
+  }
 
   .stext {
     font-size: 1rem;
-}
+  }
 
   .ptext {
     font-size: 1.8rem;
     width: 80%
-} 
-
+  }
+  
   .navicon {
     width: 40vh;
     justify-content: space-between;
     display: flex;
-}
+  }
 
   .icon-wrap {
     display: flex;
