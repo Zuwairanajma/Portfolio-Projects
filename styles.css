@@ -79,19 +79,19 @@
 
 .ptext {
   color: #ff6b00;
-  font-size: 3.5rem;
+  font-size: 327px;
   margin-top: 0%;
-  width: 86%;
+  width: 20.437rem;
   top: 0.625rem;
   font-family: 'Crete Round', sans-serif;
   font-weight: 400;
-  line-height: 4rem;
+  line-height: 3rem;
 }
 
 .stext {
   font-family: 'Roboto', sans-serif;
   font-style: bold;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   line-height: 2rem;
   width: 85%;
   height: 1.6875rem;
@@ -165,7 +165,7 @@ i {
 
   .stext {
     font-size: 1.2rem;
-    width: 85%
+    width: 85%;
   }
 
   .ptext {
