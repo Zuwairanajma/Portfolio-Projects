@@ -17,15 +17,16 @@
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 
-<!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio Project] <a name="about-project"></a>
+# 📖 "Portfolio Project!" <a name="about-project"></a>
 
-**Portfolio Project** is a HTML and CSS Mobile view portfolio project for a web developer. This part consist of just the toolbar and headline section
+Portfolio Project is a HTML and CSS Mobile view portfolio project for a web developer. This part consist of just the toolbar and headline section.
 
 ## 🛠 Built With <a name="built-with"></a>
-
 ### Tech Stack <a name="tech-stack"></a>
+<p>HTML</p>
+<p>CSS</p>
+
 
 <details>
   <summary>HTML</summary>
@@ -35,91 +36,63 @@
 </details>
 
 <details>
-  <summary>CSS</summary>
+ <summary>Client</summary>
   <ul>
-    <li><a href="#">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/ru/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/ru/docs/Web/CSS">CSS</a></li>
   </ul>
 </details>
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
-
 - **Navbar (menu-bar)**
 - **headbar-menu**
 - **container_text**
 - **Responsive**
 - **navicon**
 - **Media Query**
-
-<!-- LIVE DEMO -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 Currently, there's no working link for this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p
 
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
+## Setup
+
+Clone this repository to your desired folder:
+
+
+> Fork this repo
+> git clone git@github.com/Zuwairanajma/Portfolio-Projects.git
+
 ### Prerequisites
 
-In order to run this project you need: I recommend the usage of Visual Studio code (vscode) editor and a browser
 
-<!--
-Example command:
+In order to run this project you need:
 
-```sh
- gem install rails
-```
- -->
+- GitHub account;
+- Install Git on your OS.
 
-### Setup
+### Install
 
-Clone this repository to your desired folder: 
+Installations required to run this project:
 
-> git clone https://github.com/Zuwairanajma/Portfolio-Projects.git
-> Fork this repo
+- Webhint installation. Run the following command:
+> npm install --save-dev hint@7.x
 
-<!--
-Example commands:
+- Stylelint installation. Run the following command:
+> npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
 
 ### Usage
 
-To run the project, execute the following command: Clone the repo and open the index.html file with your default browser
+You can use this project by cloning it to your folder and changing index.html and styles.css files.
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 ### Run tests
 
 To run tests, run the following commands:
@@ -127,9 +100,12 @@ To run tests, run the following commands:
 > npx hint .
 > npx stylelint "**/*.{css,scss}"
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+### Deployment
+
+You can deploy this project adding new lines of code to index.html and styles.css files.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -142,7 +118,6 @@ To run tests, run the following commands:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -153,30 +128,32 @@ To run tests, run the following commands:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, support and encourage me. 
+If you like this project, support and encourage me by staring it and leaving a comment. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to appreciate and acknowledge the esteem Microverse program for providing me with necessary template files and detailed instructions.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+**No FAQ for now**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

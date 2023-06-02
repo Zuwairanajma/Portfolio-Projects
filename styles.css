@@ -43,7 +43,7 @@
   flex-wrap: nowrap;
 }
 
-p {
+.logo {
   padding-inline-start: 2%;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -69,7 +69,7 @@ p {
   width: 100%;
   padding: 7.75rem 1.5rem;
   gap: 1rem;
-  background-position: right center;
+  background-position: right bottom;
   background-size: 8.75rem;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -91,7 +91,7 @@ p {
 .stext {
   font-family: 'Roboto', sans-serif;
   font-style: bold;
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 2rem;
   width: 85%;
   height: 1.6875rem;
@@ -100,13 +100,14 @@ p {
   color: #fff5e1;
   margin-top: 0.625rem;
   margin-bottom: 0.625rem;
+  font-weight: 700;
 }
 
 .description {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1.25rem;
-  line-height: 32px;
+  line-height: 1.5rem;
   color: #fff;
   margin-top: 0;
   margin-bottom: 0.8125rem;
@@ -143,9 +144,9 @@ i {
   .container_text {
     width: 100%;
     height: 100%;
-    margin-top: 1%;
+    margin-top: 4%;
     padding-top: 0.4rem;
-    gap: 0.09rem;
+    gap: 0.8rem;
   }
 
   .headbar-menu {
@@ -158,21 +159,22 @@ i {
   }
 
   .description {
-    font-size: 0.6rem;
-    width: 80%;
+    font-size: 1rem;
+    width: 85%;
   }
 
   .stext {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    width: 85%
   }
 
   .ptext {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     width: 80%;
   }
 
   .navicon {
-    width: 40vh;
+    width: 60vh;
     justify-content: space-between;
     display: flex;
   }
