@@ -289,16 +289,16 @@ header {
   z-index: 222;
 }
 
-  .cardsarr {
-    bottom: 10px;
-    padding: 20px;
-    display: flex;
-    margin-top: 2rem;
-    width:100vh;
-    position: relative;
-    flex-direction: column;
-    align-items: center;
-    background-size: cover;
+.cardsarr {
+  bottom: 10px;
+  padding: 20px;
+  display: flex;
+  margin-top: 2rem;
+  width:100vh;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
   } 
 
 .btn3{
@@ -313,16 +313,7 @@ header {
   line-height: 20px;
   color: #fff;
 }
-/* .footer{
-  background-color: #ff6b00;
-  width: 327px;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 25px;
-  border: 1px solid white;
-} */
+
  .projects {
 
   margin-top: 15px;
@@ -382,80 +373,6 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 40px 0;
-}
-
-.contact-wrapper {
-  padding: 69px 25px 0 23px;
-}
-
-.contact-header {
-  width: 87.2%;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  text-align: center;
-  color: #172b4d;
-  margin-bottom: 105px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.contact-wrapper form input {
-  border: none;
-  border-bottom: 1px solid #dbd8d7;
-  padding: 14px 17px;
-}
-
-.contact-wrapper input::placeholder {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #979493;
-}
-
-textarea {
-  background: #fbf8f7;
-  border: none;
-  padding: 10px 10px;
-  height: 114px;
-}
-
-textarea::placeholder {
-  font-family: 'Inter', sans-serif;
-  font-style: italic;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #3c3a39;
-}
-
-.btn-contact {
-  width: 131px;
-  height: 48px;
-  align-self: center;
-}
-
-#contact-detail {
-  border: none;
-  border-bottom: 1px solid #dfe1e6;
-  padding-bottom: 80px;
-  margin-bottom: 25px;
-}
-
-.background-graphic {
-  width: 150px;
-  height: 230px;
-  background: url("../Images/Frame.png") no-repeat center center;
-  background-size: cover;
-  align-self: flex-end;
 }
 
 .about-heading {
