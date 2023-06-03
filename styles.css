@@ -16,6 +16,7 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   height: 100%;
   width: 100%;
@@ -27,6 +28,7 @@ header {
   display: flex;
   flex-direction: column;
 }
+
 .headbar-menu {
   height: 4.5rem;
   width: 100%;
@@ -38,10 +40,10 @@ header {
   flex-direction: row;
   margin-right: 6.25rem;
 }
+
 .fa-bars {
   color: white;
 }
-
 
 .logo {
   font-family: 'Roboto', sans-serif;
@@ -87,7 +89,6 @@ header {
 
 .ptext {
   color: #ff6b00;
-  /* width: 87.2%; */
   width: 90%;
   font-family: 'Crete Round', serif;
   font-style: normal;
@@ -98,7 +99,6 @@ header {
   text-align: left;
   margin-left: 1.5rem;
   display: block;
-
 }
 
 .stext {
@@ -135,7 +135,8 @@ header {
   width: 1.25rem;
   padding-top: 1.7px;
 }
-.github{
+
+.github {
   height: 1.25rem;
   width: 1.124rem;
   padding-bottom: 0.6px;
