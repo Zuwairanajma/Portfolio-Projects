@@ -20,6 +20,7 @@
 
 # 📖 "Portfolio Project!" <a name="about-project"></a>
 
+
 Portfolio Project is a HTML and CSS Mobile view portfolio project for a web developer. This part consist of just The toolbar and headline section.
 The work version and about me version. 
 

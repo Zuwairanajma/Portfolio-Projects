@@ -16,6 +16,7 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   height: 100%;
   width: 100%;
@@ -27,6 +28,7 @@ header {
   display: flex;
   flex-direction: column;
 }
+
 .headbar-menu {
   height: 72px;
   width: 100%;
@@ -37,6 +39,9 @@ header {
   align-items: center;
   flex-direction: row;
   margin-right: 100px;
+}
+
+.fa-bars {
   color: white;
 }
 
@@ -65,12 +70,10 @@ header {
   text-align: left;
   height: auto;
   width: 100%;
-  padding: 124px 24px;
-  gap: 12px;
+  padding: 7.75rem 1.5rem;
+  gap: 0.75rem;
   background-position: right bottom;
-  background-size: 140px;
-  background-repeat: no-repeat;
-}
+  background-size: 8.75rem;
 
 .navicon {
   display: flex;
@@ -82,28 +85,31 @@ header {
 }
 
 .ptext {
-  color: #ff6b00;
-  width: 87.2%;
+  width: 90%;
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 56px;
-  line-height: 64px;
-  letter-spacing: 0.37px;
+  font-size: 3.5rem;
+  line-height: 4rem;
+  letter-spacing: 0.0231rem;
+  text-align: left;
+  margin-left: 1.5rem;
+  display: block;
 }
 
 .stext {
   width: 87.2%;
-  height: 27px;
+  height: 1.6875rem;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   align-items: center;
   color: #fff;
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  margin-left: 1.5rem;
 }
 
 .description {
@@ -617,4 +623,42 @@ textarea::placeholder {
     width:100%;
     position: relative;
   }
+=======
+  font-size: 1.25rem;
+  line-height: 2rem;
+  color: #f4f5f7;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  margin-left: 1.5rem;
+}
+
+.medium {
+  padding-bottom: 0.8px;
+  height: 1rem;
+  width: 1.25rem;
+  padding-top: 1.7px;
+}
+
+.github {
+  height: 1.25rem;
+  width: 1.124rem;
+  padding-bottom: 0.6px;
+}
+
+.twitter {
+  height: 1.2475rem;
+  width: 1.249rem;
+  padding-top: 2.5px;
+}
+
+.angeli {
+  height: 1.25rem;
+  width: 0.885rem;
+  padding-bottom: 1px;
+  padding-top: 1.5px;
+}
+
+.linkedin {
+  height: 1.25rem;
+  width: 1.25rem;
 }
