@@ -74,6 +74,7 @@ header {
   gap: 0.75rem;
   background-position: right bottom;
   background-size: 8.75rem;
+}
 
 .navicon {
   display: flex;
@@ -232,14 +233,6 @@ header {
   font-family: 'Inter', serif;
 }
 
-/* .cardworks{
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 1rem;
-  margin-bottom: 120px;
-  width: 100%;
-  height: 100%;
-} */
 .cardworks {
   display: flex;
   flex-direction: column;
@@ -307,7 +300,7 @@ header {
   background-size: cover;
   } 
 
-.btn3{
+.btn3 {
   padding: 10px 12px;
   margin: 12px 2px 22px 13px;
   height: 40px;
@@ -335,13 +328,38 @@ header {
   line-height: 24px;
   font-family: 'Inter', serif;
   width: 100%;
-
 }
 
-hr {
-  border: 1px solid gray;
+.medium {
+  padding-bottom: 0.8px;
+  height: 1rem;
+  width: 1.25rem;
+  padding-top: 1.7px;
 }
 
+.github {
+  height: 1.25rem;
+  width: 1.124rem;
+  padding-bottom: 0.6px;
+}
+
+.twitter {
+  height: 1.2475rem;
+  width: 1.249rem;
+  padding-top: 2.5px;
+}
+
+.angeli {
+  height: 1.25rem;
+  width: 0.885rem;
+  padding-bottom: 1px;
+  padding-top: 1.5px;
+}
+
+.linkedin {
+  height: 1.25rem;
+  width: 1.25rem;
+}
 /* About me Section */
 .about-section {
   padding-bottom: 120px;
@@ -540,42 +558,4 @@ hr {
     width:100%;
     position: relative;
   }
-=======
-  font-size: 1.25rem;
-  line-height: 2rem;
-  color: #f4f5f7;
-  margin-top: 0;
-  margin-bottom: 0.75rem;
-  margin-left: 1.5rem;
-}
-
-.medium {
-  padding-bottom: 0.8px;
-  height: 1rem;
-  width: 1.25rem;
-  padding-top: 1.7px;
-}
-
-.github {
-  height: 1.25rem;
-  width: 1.124rem;
-  padding-bottom: 0.6px;
-}
-
-.twitter {
-  height: 1.2475rem;
-  width: 1.249rem;
-  padding-top: 2.5px;
-}
-
-.angeli {
-  height: 1.25rem;
-  width: 0.885rem;
-  padding-bottom: 1px;
-  padding-top: 1.5px;
-}
-
-.linkedin {
-  height: 1.25rem;
-  width: 1.25rem;
 }
