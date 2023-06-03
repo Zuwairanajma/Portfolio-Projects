@@ -290,7 +290,6 @@ header {
   display: block;
   width: 327px;
   flex-direction: column;
-
 }
 
 .card1 {
@@ -516,7 +515,7 @@ header {
 
   #about-section {
     overflow: hidden;
-   background: #262626;
+    background: #262626;
   }
 
   .about-heading {
@@ -561,5 +560,5 @@ header {
     grid-template-columns: repeat(6, 1fr);
     width: 100%;
     position: relative;
-    }
   }
+}
