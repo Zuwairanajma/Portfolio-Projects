@@ -20,7 +20,8 @@
 
 # 📖 "Portfolio Project!" <a name="about-project"></a>
 
-Portfolio Project is a HTML and CSS Mobile view portfolio project for a web developer. This part consist of just the toolbar and headline section.
+Portfolio Project is a HTML and CSS Mobile view portfolio project for a web developer. This part consist of just The toolbar and headline section.
+The work version and about me version. 
 
 ## 🛠 Built With <a name="built-with"></a>
 ### Tech Stack <a name="tech-stack"></a>
@@ -154,6 +155,6 @@ I would like to appreciate and acknowledge the esteem Microverse program for pro
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
