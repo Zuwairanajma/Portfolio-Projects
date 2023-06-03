@@ -130,23 +130,28 @@ header {
 }
 
 .medium {
-  padding-bottom: 0.031rem;
+  padding-bottom: 0.8px;
   height: 1rem;
   width: 1.25rem;
+  padding-top: 1.7px;
 }
 .github{
   height: 1.25rem;
   width: 1.124rem;
+  padding-bottom: 0.6px;
 }
 
 .twitter {
   height: 1.2475rem;
   width: 1.249rem;
+  padding-top: 2.5px;
 }
 
 .angeli {
   height: 1.25rem;
   width: 0.885rem;
+  padding-bottom: 1px;
+  padding-top: 1.5px;
 }
 
 .linkedin {
