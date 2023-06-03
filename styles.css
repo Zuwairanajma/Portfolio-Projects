@@ -287,9 +287,10 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 120px;
-  display: block; 
+  display: block;
   width: 327px;
-  flex-direction: column; 
+  flex-direction: column;
+
 }
 
 .card1 {
@@ -331,7 +332,7 @@ header {
   flex-direction: column;
   align-items: center;
   background-size: cover;
-} 
+}
 
 .btn3 {
   padding: 10px 12px;
@@ -346,7 +347,7 @@ header {
   color: #fff;
 }
 
- .projects {
+.projects {
   margin-top: 15px;
   height: 64px;
   border-radius: 0;
@@ -361,9 +362,8 @@ header {
   width: 100%;
 }
 
-
-
 /* About me Section */
+
 .about-section {
   padding-bottom: 120px;
   padding-top: 120px;
@@ -561,5 +561,5 @@ header {
     grid-template-columns: repeat(6, 1fr);
     width: 100%;
     position: relative;
+    }
   }
-}
