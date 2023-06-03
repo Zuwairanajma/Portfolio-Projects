@@ -62,7 +62,6 @@ header {
 .headline {
   overflow: hidden;
   background-image: url(./PImages/Illustration.png);
-  /* background-position-y: 100%; */
   background-color: #1c1a19;
   display: flex;
   flex-direction: column;
@@ -78,7 +77,6 @@ header {
 
 .navicon {
   display: flex;
-  /* flex-direction: row; */
   align-items: baseline;
   padding: 12px 151px 120px 24px;
   height: 40px;
@@ -125,16 +123,13 @@ header {
   margin-bottom: 12px;
 }
 
-.medium {
-  padding-bottom: 1px;
-}
-
-.My-Recent{
+.My-Recent {
   display: flex;
   flex-direction: column;
   padding: 1.5rem;
   flex-wrap: nowrap;
 }
+
 .recent {
   display: flex;
   flex-direction: column;
@@ -155,6 +150,7 @@ header {
   vertical-align: middle;
   padding-bottom: 3rem;
 }
+
 .recent-works {
   padding-top: 8rem;
   display: flex;
@@ -162,6 +158,7 @@ header {
   align-items: inline;
   border-bottom: 1px solid #212121;
 }
+
 .placeholder {
   padding-top: 8rem;
   width: 100%;
@@ -169,6 +166,7 @@ header {
   background-position-y: top;
   background-position-x: left;
 }
+
 .multipost {
   display: flex;
   flex-direction: column;
@@ -185,13 +183,14 @@ header {
   width: 327px;
   vertical-align: middle;
 }
+
 .stories {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   margin-top: 48px;
   font-family: 'Inter', sans-serif;
-  color: #091E42;
+  color: #091e42;
   font-style: normal;
   vertical-align: top;
 }
@@ -214,6 +213,7 @@ header {
   padding: 8px;
   border: 1px solid #8993a4;
 }
+
 .bnt:hover {
   border: 1px solid rgba orange;
 }
@@ -255,8 +255,7 @@ header {
   margin-bottom: 120px;
   display: block; 
   width: 327px;
-  flex-direction: column;
-  
+  flex-direction: column; 
 }
 
 .card1 {
@@ -271,8 +270,8 @@ header {
   margin-top: 8px;
   margin-left: 16px;
   width: 100%;
-
 }
+
 .cardtext {
   position: top center;
   bottom: 100px;
@@ -293,12 +292,12 @@ header {
   padding: 20px;
   display: flex;
   margin-top: 2rem;
-  width:100vh;
+  width: 100vh;
   position: relative;
   flex-direction: column;
   align-items: center;
   background-size: cover;
-  } 
+} 
 
 .btn3 {
   padding: 10px 12px;
@@ -314,10 +313,8 @@ header {
 }
 
  .projects {
-
   margin-top: 15px;
   height: 64px;
-  width: 327px;
   border-radius: 0;
   padding: 12px;
   background: #ff6b00;
@@ -360,6 +357,7 @@ header {
   height: 1.25rem;
   width: 1.25rem;
 }
+
 /* About me Section */
 .about-section {
   padding-bottom: 120px;
@@ -502,53 +500,53 @@ header {
 }
 
 @media screen and (min-width: 768px) {
-.cardworks {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 0 141px;
-  gap: 1rem;
-  margin-top: 24px;
-  margin-bottom: 130px;
-}
+  .cardworks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 141px;
+    gap: 1rem;
+    margin-top: 24px;
+    margin-bottom: 130px;
+  }
 
-#about-section {
-  overflow: hidden;
-  background: #262626;
-}
+  #about-section {
+    overflow: hidden;
+   background: #262626;
+    }
 
-.about-heading {
-  align-self: flex-start;
-}
+  .about-heading {
+    align-self: flex-start;
+  }
 
-.about-introduction {
-  z-index: 1;
-}
+  .about-introduction {
+    z-index: 1;
+  }
 
-.about-introduction-content {
-  width: 60%;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin-left: 142px;
-  gap: 1rem 10rem;
-  z-index: 1;
-}
+  .about-introduction-content {
+    width: 60%;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 142px;
+    gap: 1rem 10rem;
+    z-index: 1;
+  }
 
-.about-introduction-content p {
-  text-shadow: -1px 1px 1px black;
-}
+  .about-introduction-content p {
+    text-shadow: -1px 1px 1px black;
+  }
 
-.about-myself {
-  flex-direction: row;
-  justify-content: flex-start;
-  margin-left: 142px;
-  gap: 0 10rem;
-  z-index: 1;
-}
+  .about-myself {
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 142px;
+    gap: 0 10rem;
+    z-index: 1;
+  }
 
-.about-section-content {
-  align-items: flex-start;
-}
-.cardsarr {
+  .about-section-content {
+    align-items: flex-start;
+  }
+  .cardsarr {
     bottom: 12px;
     padding: 20px;
     display: grid;
