@@ -13,7 +13,7 @@
 
 *,
 *::after,
-*::Before {
+*::before {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -167,22 +167,21 @@ header {
   padding: 120px 24px;
   grid-gap: 24px;
   background-color: #e5e5e5;
-  padding: 120px 24px;
   position: relative;
   width: 100%;
   height: 100%;
 }
 
 .recent-works {
-    font-family: 'Crete Round', serif;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 52px;
-    letter-spacing: 0;
-    text-align: left;
-    right: 24px;
-    left: 24px;
-    color: #1c1a19;
+  font-family: 'Crete Round', serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: left;
+  right: 24px;
+  left: 24px;
+  color: #1c1a19;
 }
 
 .line-divider {
@@ -228,7 +227,7 @@ header {
   letter-spacing: 0.05em;
   color: #091e42;
   padding: 10px 12px;
-  border: 1px solid #1c1a19
+  border: 1px solid #1c1a19;
 }
 
 .buttonss1 {
@@ -239,6 +238,7 @@ header {
   justify-content: space-between;
   list-style: none;
 }
+
 .btn2 {
   width: 124px;
   padding: 12px;
@@ -261,11 +261,11 @@ header {
   width: 327px;
   height: 386px;
   margin: 0;
-  background:linear-gradient(
+  background: linear-gradient(
     180.45deg,
     rgba(38, 38, 38, 0) 0.75%,
-    rgba(38, 38, 38, 0.9) 61.94%
-  ), url(./PImages/HRsnip.png);
+    rgba(38, 38, 38, 0.9) 61.94%),
+    url(./PImages/HRsnip.png);
   background-size: cover;
 }
 
@@ -277,11 +277,13 @@ header {
   width: 327px;
   height: 386px;
   margin: 0;
-  background:linear-gradient(
+  background:
+  linear-gradient(
     180.45deg,
     rgba(38, 38, 38, 0) 0.75%,
     rgba(38, 38, 38, 0.9) 61.94%
-  ), url(./PImages/digitalmarket.png);
+  ), 
+  url(./PImages/digitalmarket.png);
   background-size: cover;
 }
 
@@ -293,7 +295,8 @@ header {
   width: 327px;
   height: 386px;
   margin: 0;
-  background: linear-gradient(
+  background: 
+  linear-gradient(
     180.45deg,
     rgba(38, 38, 38, 0) 0.75%,
     rgba(38, 38, 38, 0.9) 95.94%
@@ -379,9 +382,8 @@ header {
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
-  z-index: 222;
-  
 }
+
 .btn {
   padding: 10px 12px;
   background: rgba(255, 255, 255, 0.24);
@@ -555,4 +557,3 @@ header {
   margin-right: 12px;
   border-radius: 50%;
 }
-
