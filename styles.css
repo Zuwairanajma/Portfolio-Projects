@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Open+Sans:wght@400;500;600&family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700;900&family=Open+Sans:wght@400;500;600&family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@400;700;900&display=swap');
 
 :root {
   --white: #fff;
@@ -11,7 +11,9 @@
   --color-dark-grey: #222831;
 }
 
-* {
+*,
+*::after,
+*::Before {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -39,6 +41,8 @@ header {
   align-items: center;
   flex-direction: row;
   margin-right: 100px;
+  position: fixed;
+  z-index: 222;
 }
 
 .fa-bars {
@@ -158,218 +162,258 @@ header {
 }
 
 .My-Recent {
-  display: flex;
-  flex-direction: column;
-  padding: 1.5rem;
-  flex-wrap: nowrap;
-}
-
-.recent {
-  display: flex;
-  flex-direction: column;
-  padding-left: 24px;
-  padding-right: 24px;
-}
-
-.my-work {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 120px 24px;
+  grid-gap: 24px;
+  background-color: #e5e5e5;
+  padding: 120px 24px;
   position: relative;
-  font-family: 'Crete Round', serif;
-  font-size: 40px;
-  text-align: center;
-  font-weight: 400;
-  line-height: 52px;
-  width: 327px;
-  color: #1c1a19;
-  font-style: normal;
-  vertical-align: middle;
-  padding-bottom: 3rem;
+  width: 100%;
+  height: 100%;
 }
 
 .recent-works {
-  padding-top: 8rem;
-  display: flex;
-  flex-direction: row;
-  align-items: inline;
-  border-bottom: 1px solid #212121;
+    font-family: 'Crete Round', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: left;
+    right: 24px;
+    left: 24px;
+    color: #1c1a19;
+}
+
+.line-divider {
+  width: 327px;
+  margin-bottom: 56px;
+  color: 20px solid #212121;
 }
 
 .placeholder {
-  padding-top: 8rem;
-  width: 100%;
-  height: 100%;
-  background-position-y: top;
-  background-position-x: left;
+  height: 237px;
+  width: 327px;
+  left: 24px;
+  border-radius: 5px;
+  background-size: cover;
 }
 
 .multipost {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  padding-top: 3rem;
-}
-
-.multi {
   font-family: 'Crete Round', serif;
-  font-weight: 400;
   font-size: 32px;
+  font-weight: 400;
   line-height: 44px;
-  width: 327px;
-  vertical-align: middle;
+  letter-spacing: 0;
+  text-align: left;
+  color: #091e42;
+  left: 24px;
+  right: 24px;
 }
 
 .stories {
-  font-size: 16px;
+  width: 327px;
+  font-family: 'Inter', serif;
   font-weight: 400;
+  font-size: 16px;
   line-height: 24px;
-  margin-top: 48px;
-  font-family: 'Inter', sans-serif;
+  text-align: left;
+}
+
+.btn1 {
+  font-family: 'Inter', serif;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 20px;
+  letter-spacing: 0.05em;
   color: #091e42;
-  font-style: normal;
-  vertical-align: top;
+  padding: 10px 12px;
+  border: 1px solid #1c1a19
 }
 
 .buttonss1 {
+  position: relative;
   display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-  align-items: inline;
-  margin-top: 4rem;
+  list-style: none;
 }
-
-.btn {
-  background: linear-gradient(0deg, #fff, #fff), linear-gradient(0deg, #8993a4, #8993a4);
-  color: #091e42;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 20px;
-  font-family: 'Inter', serif;
-  margin: 8px;
-  padding: 8px;
-  border: 1px solid #8993a4;
-}
-
-.bnt:hover {
-  border: 1px solid rgba orange;
-}
-
 .btn2 {
-  margin-top: 7px;
-  height: 48px;
   width: 124px;
-  border-radius: 0;
   padding: 12px;
-  background: #ff6b00;
   border: none;
-  color: #fff;
+  background: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
   font-size: 17px;
-  font-weight: bold;
   line-height: 24px;
-  font-family: 'Inter', serif;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.cardworks1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+  width: 327px;
+  height: 386px;
+  margin: 0;
+  background:linear-gradient(
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 61.94%
+  ), url(./PImages/HRsnip.png);
+  background-size: cover;
+}
+
+.cardworks2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+  width: 327px;
+  height: 386px;
+  margin: 0;
+  background:linear-gradient(
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 61.94%
+  ), url(./PImages/digitalmarket.png);
+  background-size: cover;
+}
+
+.cardworks3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+  width: 327px;
+  height: 386px;
+  margin: 0;
+  background: linear-gradient(
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 95.94%
+  ), url(./PImages/postone1.png);
+  background-size: cover;
+}
+
+.cardworks4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+  width: 327px;
+  height: 386px;
+  margin: 0;
+  background: linear-gradient(
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 95.94%
+  ), url(./PImages/buildingdesignconstruction.png);
+  background-size: cover;
+}
+
+.cardworks5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+  width: 327px;
+  height: 386px;
+  margin: 0;
+  background: linear-gradient(
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 95.94%
+  ),url(./PImages/card-five.png);
+  background-size: cover;
 }
 
 .cardworks {
   display: flex;
   flex-direction: column;
-  flex: 1;
-  width: 100%;
   justify-content: space-between;
-  background-size: cover;
-}
-
-.cardlist {
-  background-image: url(/Portfolio-Projects/PImages/Img\ Placeholderforprof.png);
-  overflow: hidden;
-  text-align: left;
-  align-items: left;
-  justify-content: center;
-  color: #fff;
-  height: 386px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 120px;
-  display: block;
+  gap: 12px;
   width: 327px;
-  flex-direction: column;
+  height: 386px;
+  margin: 0;
+  background: url(./PImages/Img\ Placeholderforprof.png);
+  background-size: cover;
 }
 
 .card1 {
   font-family: 'Crete Round', sans-serif;
-  color: #fff;
-  font-weight: 400;
   font-size: 32px;
+  font-weight: 200;
   line-height: 44px;
-  font-style: normal;
-  z-index: 222;
-  display: flex;
-  margin-top: 8px;
-  margin-left: 16px;
-  width: 100%;
+  letter-spacing: 0.02em;
+  margin-top: 72px;
+  margin-left: 13px;
+  margin-right: 13px;
+  text-align: left;
+  color: #fff;
 }
 
 .cardtext {
-  position: top center;
-  bottom: 100px;
+  font-family: 'Inter', serif;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  margin-left: 13px;
+  margin-right: 13px;
   text-align: left;
-  font-family: 'Inter', sans-serif;
-  padding-left: 16px;
   color: #fff;
-  display: block;
-  margin-top: 40px;
-  margin-left: 10px;
-  width: 301px;
-  height: 99px;
   z-index: 222;
 }
 
-.cardsarr {
-  bottom: 10px;
-  padding: 20px;
-  display: flex;
-  margin-top: 2rem;
-  width: 100vh;
-  position: relative;
-  flex-direction: column;
-  align-items: center;
-  background-size: cover;
-}
-
-.btn3 {
-  padding: 10px 12px;
-  margin: 12px 2px 22px 13px;
+.card-button {
+  width: 247px;
   height: 40px;
+  margin-left: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  z-index: 222;
+  
+}
+.btn {
+  padding: 10px 12px;
   background: rgba(255, 255, 255, 0.24);
-  font-family: 'Inter', serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
   color: #fff;
 }
 
 .projects {
-  margin-top: 15px;
-  height: 64px;
-  border-radius: 0;
-  padding: 12px;
-  background: #ff6b00;
+  width: 327px;
+  height: 48px;
+  left: 0;
+  top: 0;
   border: none;
-  color: #fff;
+  background: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
   font-size: 17px;
-  font-weight: bold;
   line-height: 24px;
-  font-family: 'Inter', serif;
-  width: 100%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
 }
 
 /* About me Section */
 
 .about-section {
-  padding-bottom: 120px;
+  position: relative;
+  width: 375px;
+  background: #1c1a19;
   padding-top: 120px;
-  background-color: #1c1a19;
-  font-family: "Crete Round", serif;
-  display: flex;
-  flex-direction: column;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 50px;
 }
 
 .about-section-content {
@@ -380,6 +424,7 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 32px 0;
+  top: 20px;
 }
 
 .language-section {
@@ -393,29 +438,46 @@ header {
   display: flex;
   flex-direction: column;
   gap: 44px 0;
+  margin-top: 80px;
 }
 
-#skill-list-container {
-  display: flex;
-  flex-direction: column;
-  gap: 40px 0;
+.background-graphic {
+  background-image: url("/PImages/Group\ \(2\).png");
+  position: absolute;
+  width: 160px;
+  height: 250px;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  background-repeat: no-repeat;
+  right: 0;
+  top: 384px;
 }
 
 .about-heading {
   color: #ff6b00;
   font-size: 72px;
-  text-align: center;
+  text-align: left;
+  font-weight: 400;
+  line-height: 88px;
+  letter-spacing: 0.05em;
+  font-family: 'Crete Round', sans-serif;
 }
 
 .horizontal-seperator-on-dark {
   border: 1px solid #f5f5f5;
   border-radius: 5px;
-  margin: 24px 24px 80px;
+  margin-top: 150px;
 }
 
-.about-section p {
-  color: #fff;
+.about-section-p {
+  color: #f4f5f7;
   font-size: 16px;
+  margin-top: 24px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
 }
 
 .about-introduction-content {
@@ -435,6 +497,7 @@ header {
   font-weight: 700;
   color: #fff;
   background-color: #ff6b00;
+  margin-top: 30px;
 }
 
 .my-resume-button:hover {
@@ -452,16 +515,6 @@ header {
   border: 1px solid transparent;
   color: #5b5957;
   background-color: #f4f1f0;
-}
-
-.about-introduction-content p {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #f4f5f7;
-  width: 55%;
 }
 
 .list-style {
@@ -503,62 +556,3 @@ header {
   border-radius: 50%;
 }
 
-@media screen and (min-width: 768px) {
-  .cardworks {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 0 141px;
-    gap: 1rem;
-    margin-top: 24px;
-    margin-bottom: 130px;
-  }
-
-  #about-section {
-    overflow: hidden;
-    background: #262626;
-  }
-
-  .about-heading {
-    align-self: flex-start;
-  }
-
-  .about-introduction {
-    z-index: 1;
-  }
-
-  .about-introduction-content {
-    width: 60%;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-left: 142px;
-    gap: 1rem 10rem;
-    z-index: 1;
-  }
-
-  .about-introduction-content p {
-    text-shadow: -1px 1px 1px black;
-  }
-
-  .about-myself {
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-left: 142px;
-    gap: 0 10rem;
-    z-index: 1;
-  }
-
-  .about-section-content {
-    align-items: flex-start;
-  }
-
-  .cardsarr {
-    bottom: 12px;
-    padding: 20px;
-    display: grid;
-    grid-gap: 2rem;
-    margin-top: 4rem;
-    grid-template-columns: repeat(6, 1fr);
-    width: 100%;
-    position: relative;
-  }
-}

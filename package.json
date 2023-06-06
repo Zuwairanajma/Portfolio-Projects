@@ -2,5 +2,15 @@
   "devDependencies": {
     "stylelint": "^15.6.2",
     "stylelint-config-standard-scss": "^9.0.0"
-  }
+  },
+  "name": "portfolio-projects",
+  "description": "<a name=\"readme-top\"></a>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
