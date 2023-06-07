@@ -219,17 +219,59 @@ header {
   text-align: left;
 }
 
-.btn1 {
+.css-stories {
   font-family: 'Inter', serif;
-  font-size: 15px;
-  font-weight: 200;
-  line-height: 20px;
+  font-size: 15pt;
+  font-weight: 500;
+  line-height: 20pt;
   letter-spacing: 0.05em;
   color: #091e42;
-  padding: 10px 12px;
-  border: 1px solid #1c1a19;
+  padding: 10px 12px 10px 12px;
+  border: 1px solid #8993a4;
+  font-style: medium;
+  height: 40pt;
+  width: 55pt;
+  text-align: center;
 }
 
+.html-stories {
+  width: 67pt;
+  height: 40pt;
+  border: 1px solid #8993a4;
+  padding: 10px 12px 10px 12px;
+  font-family: 'Inter', serif;
+  font-size: 15pt;
+  font-weight: 500;
+  line-height: 20pt;
+  letter-spacing: 0.05em;
+  color: #091e42;
+}
+
+.boots-stories {
+  width: 95pt;
+  height: 40pt;
+  border: 1px solid #8993a4;
+  padding: 10px 12px 10px 12px;
+  font-family: 'Inter', serif;
+  font-size: 15pt;
+  font-weight: 500;
+  line-height: 20pt;
+  letter-spacing: 0.05em;
+  color: #091e42;
+}
+
+.ruby-stories {
+  width: 61pt;
+  height: 40pt;
+  border: 1px solid #8993a4;
+  padding: 10px 12px 10px 12px;
+  font-family: 'Inter', serif;
+  font-size: 15pt;
+  font-weight: 500;
+  line-height: 20pt;
+  letter-spacing: 0.05em;
+  color: #091e42;
+}
 .buttonss1 {
   position: relative;
   display: flex;
@@ -237,11 +279,19 @@ header {
   align-items: center;
   justify-content: space-between;
   list-style: none;
+  width: 100%;
+  height: 100%;
 }
 
-.btn2 {
-  width: 124px;
-  padding: 12px;
+.sp-container {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  
+}
+.seeproject {
+  width: 124pt;
+  padding: 12pt;
   border: none;
   background: #ff6b00;
   font-family: 'Inter', sans-serif;
@@ -251,6 +301,8 @@ header {
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
+  gap: 10pt;
+  height: 48pt;
 }
 
 .cardworks1 {
@@ -391,6 +443,9 @@ header {
   list-style: none;
 }
 
+li {
+  list-style: none;
+}
 .btn {
   padding: 10px 12px;
   background: rgba(255, 255, 255, 0.24);
@@ -451,16 +506,17 @@ header {
 }
 
 .background-graphic {
-  background-image: url("/PImages/Group\ \(2\).png");
+  background-image: url("Mobile-illustration.png");
   position: absolute;
-  width: 160px;
-  height: 250px;
-  flex: none;
-  order: 4;
-  flex-grow: 0;
-  background-repeat: no-repeat;
   right: 0;
   top: 384px;
+  width: 160px;
+  height: 250px;
+  background-repeat: no-repeat;
+  flex: none;
+  order: 4;
+  background-size: cover;
+  border: 0.58px solid #262626;
 }
 
 .about-heading {
