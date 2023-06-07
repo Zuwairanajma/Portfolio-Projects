@@ -272,6 +272,7 @@ header {
   letter-spacing: 0.05em;
   color: #091e42;
 }
+
 .buttonss1 {
   position: relative;
   display: flex;
@@ -287,8 +288,8 @@ header {
   width: 100%;
   display: flex;
   justify-content: left;
-  
 }
+
 .seeproject {
   width: 124pt;
   padding: 12pt;
@@ -446,6 +447,7 @@ header {
 li {
   list-style: none;
 }
+
 .btn {
   padding: 10px 12px;
   background: rgba(255, 255, 255, 0.24);
