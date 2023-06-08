@@ -11,9 +11,9 @@
   --color-dark-grey: #222831;
 }
 
-*,
+* *,
 *::after,
-*::Before {
+*::before {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -26,12 +26,12 @@ body {
 
 header {
   top: 0;
-  width: 100%;
+  width: 375px;
   display: flex;
   flex-direction: column;
 }
 
-.headbar {
+.headbar-menu {
   height: 72px;
   width: 375px;
   padding: 10px 12px;
@@ -40,7 +40,7 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  margin-right: 100px;
+  /* margin-right: 100px; */
   position: fixed;
   z-index: 222;
 }
@@ -63,29 +63,27 @@ header {
   text-decoration: none;
 }
 
-main {
-  width: 100%;
-  height: 100%;
-}
-
 .headline {
-  overflow: hidden;
-  background-image: url(./PImages/Illustration.png);
   background-color: #1c1a19;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  text-align: left;
-  height: auto;
-  width: 375px;
-  padding: 7.75rem 1.5rem;
-  gap: 0.75rem;
+  justify-content: inline;
+  overflow: hidden;
+  background-image: url(./PImages/Illustration.png);
   background-position: right bottom;
   background-size: 8.75rem;
   background-repeat: no-repeat;
-  margin-top: 50px;
+  height: 590pt;
+  width: 375px;
+  padding: 7.5rem 1.5rem 7.5rem 1.5rem;
+  gap: 0.75rem;
 }
 
+.container_text{
+  height: 590pt;
+  width: 375px;
+  text-align: left;
+}
 .navicon {
   display: flex;
   align-items: baseline;
@@ -96,7 +94,7 @@ main {
 
 .ptext {
   color: #ff6b00;
-  width: 90%;
+  width: 375px;
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
@@ -104,8 +102,9 @@ main {
   line-height: 4rem;
   letter-spacing: 0.0231rem;
   text-align: left;
-  margin-left: 1.5rem;
-  display: block;
+  display: flex;
+  /* padding-top: 120px; */
+  margin-top: 70px;
 }
 
 .stext {
@@ -120,7 +119,6 @@ main {
   color: #fff;
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
-  margin-left: 1.5rem;
 }
 
 .description {
@@ -131,9 +129,8 @@ main {
   font-size: 20px;
   line-height: 32px;
   color: #f4f5f7;
-  margin-top: 0;
+  margin-top: 24px;
   margin-bottom: 12px;
-  margin-left: 1.5rem;
 }
 
 .medium {
@@ -168,30 +165,24 @@ main {
 }
 
 .My-Recent {
-  display: grid;
-  grid-template-columns: auto;
-  padding: 120px 24px;
-  grid-gap: 24px;
+  display: flex;
+  flex-direction: column;
   background-color: #e5e5e5;
-  padding: 120px 24px;
   position: relative;
   width: 375px;
-  height: 100%;
 }
 
 .recent-works {
-    font-family: 'Crete Round', serif;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 52px;
-    letter-spacing: 0;
-    text-align: left;
-    right: 24px;
-    left: 24px;
-    color: #1c1a19;
+  display: flex;
+  justify-content: inline;
+  width: 327px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+ 
 }
 
-/* .my-work {
+.my-work {
   font-family: 'Crete Round', serif;
   font-size: 40px;
   font-weight: 400;
@@ -202,18 +193,21 @@ main {
   color: #1c1a19;
   /* padding-top: 120px; */
  
-} */
+}
 
 .line-divider {
   width: 327px;
-  margin-bottom: 56px;
+  margin-bottom: 80px;
   color: 20px solid #212121;
+  padding-right: 24px;
+  padding-left: 24px;
+  margin-top: 24px;
 }
 
 .placeholder {
   height: 237px;
   width: 327px;
-  left: 24px;
+  padding-left: 24px;
   border-radius: 5px;
   background-size: cover;
 }
@@ -226,8 +220,8 @@ main {
   letter-spacing: 0;
   text-align: left;
   color: #091e42;
-  left: 24px;
-  right: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .stories {
@@ -290,61 +284,39 @@ main {
   line-height: 20px;
   color: #091e42;
 }
-
-.btn1 {
-  font-family: 'Inter', serif;
-  font-size: 15px;
-  font-weight: 200;
-  line-height: 20px;
-  letter-spacing: 0.05em;
-  color: #091e42;
-  padding: 10px 12px;
-  border: 1px solid #1c1a19
-}
-
 .buttonss1 {
   position: relative;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: left;
   justify-content: space-between;
   list-style: none;
-}
-.btn2 {
-  width: 124px;
-  padding: 12px;
-  border: none;
-  background: #ff6b00;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #fff;
-}
- 
-.sp-container {
-  /* width: 100%; */
-  display: flex;
-  justify-content: left;
-  
-} 
-
-.seeproject {
-  border: none;
-  width: 124px;
-  background: #ff6b00;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #fff;
-  gap: 10px;
-  height: 48px;
   margin-top: 12px;
+  margin-bottom: 12px;
+  margin-right: 12px;
+}
+
+ .sp-container {
+  width: 100%;
+  display: flex;
+  justify-content: left; */
+  
+}
+.seeproject {
+  width: 124px;
+  padding-left: 12px;
+  padding-right: 227px;
+  border: none;
+  background: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  gap: 10pt;
+  height: 48px;
 }
 
 .cardworks1 {
@@ -355,12 +327,15 @@ main {
   width: 327px;
   height: 386px;
   margin: 0;
-  background:linear-gradient(
-    180.45deg,
-    rgba(38, 38, 38, 0) 0.75%,
-    rgba(38, 38, 38, 0.9) 61.94%
-  ), url(./PImages/HRsnip.png);
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(./PImages/HRsnip.png);
   background-size: cover;
+  padding: 24px;
 }
 
 .cardworks2 {
@@ -371,12 +346,15 @@ main {
   width: 327px;
   height: 386px;
   margin: 0;
-  background:linear-gradient(
-    180.45deg,
-    rgba(38, 38, 38, 0) 0.75%,
-    rgba(38, 38, 38, 0.9) 61.94%
-  ), url(./PImages/digitalmarket.png);
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(./PImages/digitalmarket.png);
   background-size: cover;
+  padding: 24px;
 }
 
 .cardworks3 {
@@ -387,12 +365,15 @@ main {
   width: 327px;
   height: 386px;
   margin: 0;
-  background: linear-gradient(
-    180.45deg,
-    rgba(38, 38, 38, 0) 0.75%,
-    rgba(38, 38, 38, 0.9) 95.94%
-  ), url(./PImages/postone1.png);
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 95.94%
+    ),
+    url(./PImages/postone1.png);
   background-size: cover;
+  padding: 24px;
 }
 
 .cardworks4 {
@@ -403,12 +384,15 @@ main {
   width: 327px;
   height: 386px;
   margin: 0;
-  background: linear-gradient(
-    180.45deg,
-    rgba(38, 38, 38, 0) 0.75%,
-    rgba(38, 38, 38, 0.9) 95.94%
-  ), url(./PImages/buildingdesignconstruction.png);
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 95.94%
+    ),
+    url(./PImages/buildingdesignconstruction.png);
   background-size: cover;
+  padding: 24px;
 }
 
 .cardworks5 {
@@ -419,12 +403,18 @@ main {
   width: 327px;
   height: 386px;
   margin: 0;
-  background: linear-gradient(
-    180.45deg,
-    rgba(38, 38, 38, 0) 0.75%,
-    rgba(38, 38, 38, 0.9) 95.94%
-  ),url(./PImages/card-five.png);
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 95.94%
+    ),
+    url(./PImages/card-five.png);
   background-size: cover;
+  padding-bottom: 120px;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .cardworks {
@@ -437,49 +427,48 @@ main {
   margin: 0;
   background: url(./PImages/Img\ Placeholderforprof.png);
   background-size: cover;
+  padding: 24px;
 }
 
 .card1 {
   font-family: 'Crete Round', sans-serif;
   font-size: 32px;
-  font-weight: 200;
+  font-weight: 400;
   line-height: 44px;
   letter-spacing: 0.02em;
-  margin-top: 72px;
+  margin-top: 8px;
   margin-left: 13px;
-  margin-right: 13px;
+  margin-right: 19px;
   text-align: left;
   color: #fff;
 }
 
 .cardtext {
-  font-family: 'Inter', serif;
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
-  font-weight: 200;
+  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
   margin-left: 13px;
   margin-right: 13px;
   text-align: left;
   color: #fff;
+  /* z-index: 222; */
 }
 
 .card-button {
   width: 247px;
   height: 40px;
   margin-left: 13px;
+  margin-right: 67px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
-  z-index: 222;
-  
+  margin-top: 12px;
+  margin-bottom: 22px;
 }
-.btn {
-  padding: 10px 12px;
-  background: rgba(255, 255, 255, 0.24);
-  color: #fff;
-}
+
 li {
   list-style: none;
 }
@@ -515,6 +504,7 @@ li {
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 50px;
+  margin-top: 120px;
   height: 100%;
 }
 
@@ -545,18 +535,21 @@ li {
 
 .background-graphic {
   background-image: url("Mobile-illustration.png");
-  position: absolute;
+  position: relative;
   top: 384px;
   width: 160px;
   height: 250px;
+  margin-left: 492.97pt;
   background-repeat: no-repeat;
   flex: none;
   order: 4; 
-  flex-grow: 0;
-  background-size: cover;
-  background-position: right;
-  right: 0;
-} 
+  background-size: cover; */
+  display: block;
+  overflow: hidden; */
+  top: 0.35px;
+  border: 0.58px solid #262626;
+  z-index: 2222;
+}
 
 .about-heading {
   color: #ff6b00;
@@ -566,7 +559,6 @@ li {
   line-height: 88px;
   letter-spacing: 0.05em;
   font-family: 'Crete Round', sans-serif;
-  margin-left: 0;
 }
 
 .horizontal-seperator-on-dark {
