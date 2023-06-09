@@ -13,34 +13,36 @@
 
 *,
 *::after,
-*::Before {
+*::before {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+
+  /* overflow-x: hidden !important; */
 }
 
 body {
   height: 100%;
+  margin: 0 auto;
   width: 100%;
 }
 
 header {
   top: 0;
-  width: 100%;
   display: flex;
   flex-direction: column;
 }
 
 .headbar {
-  height: 72px;
-  width: 375px;
-  padding: 10px 12px;
+  height: 4.5rem;
+  width: 100%;
+  padding: 0.625rem 0.75rem;
   background: #3c3a39;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  margin-right: 100px;
+  margin-right: 6.25rem;
   position: fixed;
   z-index: 222;
 }
@@ -54,18 +56,13 @@ header {
   font-style: normal;
   font-weight: 1em;
   font-size: 18pt;
-  line-height: 24px;
+  line-height: 1.5rem;
   align-items: center;
   text-align: center;
   color: white;
   order: 0;
-  margin-left: 10px;
+  margin-left: 0.625rem;
   text-decoration: none;
-}
-
-main {
-  width: 100%;
-  height: 100%;
 }
 
 .headline {
@@ -77,21 +74,20 @@ main {
   justify-content: space-between;
   text-align: left;
   height: auto;
-  width: 375px;
   padding: 7.75rem 1.5rem;
   gap: 0.75rem;
   background-position: right bottom;
   background-size: 8.75rem;
   background-repeat: no-repeat;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 .navicon {
   display: flex;
   align-items: baseline;
-  padding: 12px 151px 120px 24px;
-  height: 40px;
-  gap: 18px;
+  padding: 0.75rem 9.4375rem 7.5rem 1.5rem;
+  height: 2.5rem;
+  gap: 1.125rem;
 }
 
 .ptext {
@@ -128,11 +124,11 @@ main {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
+  font-size: 1.25rem;
+  line-height: 2rem;
   color: #f4f5f7;
   margin-top: 0;
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
   margin-left: 1.5rem;
 }
 
@@ -168,198 +164,188 @@ main {
 }
 
 .My-Recent {
-  display: grid;
-  grid-template-columns: auto;
-  padding: 120px 24px;
-  grid-gap: 24px;
+  display: flex;
+  grid-template-columns: 100%;
+  padding: 7.5rem 1.5rem;
+  grid-gap: 1.5rem;
   background-color: #e5e5e5;
-  padding: 120px 24px;
   position: relative;
-  width: 375px;
-  height: 100%;
+  flex-direction: column;
+}
+
+.my-work {
+  font-family: 'Crete Round', serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3.25rem;
+  letter-spacing: 0;
+  text-align: left;
+  left: 1.5rem;
+  color: #1c1a19;
+  width: 20.4375rem;
 }
 
 .recent-works {
-    font-family: 'Crete Round', serif;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 52px;
-    letter-spacing: 0;
-    text-align: left;
-    right: 24px;
-    left: 24px;
-    color: #1c1a19;
+  color: #1c1a19;
 }
 
-/* .my-work {
-  font-family: 'Crete Round', serif;
-  font-size: 40px;
-  font-weight: 400;
-  line-height: 52px;
-  text-align: left;
-  padding-right: 24px;
-  padding-left: 24px;
-  color: #1c1a19;
-  /* padding-top: 120px; */
- 
-} */
-
-.line-divider {
-  width: 327px;
-  margin-bottom: 56px;
-  color: 20px solid #212121;
+.divider {
+  width: 20.4375rem;
+  margin-bottom: 3.5rem;
+  background-color: #212121;
+  margin-top: 3.125rem;
 }
 
 .placeholder {
-  height: 237px;
-  width: 327px;
-  left: 24px;
-  border-radius: 5px;
+  height: 14.8125rem;
+  width: 20.4375rem;
+  left: 1.5rem;
+  border-radius: 0.3125rem;
   background-size: cover;
+  margin-top: 0.625rem;
 }
 
 .multipost {
+  flex-direction: column;
+  display: flex;
+}
+
+.multi {
   font-family: 'Crete Round', serif;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 400;
-  line-height: 44px;
+  line-height: 2.75rem;
   letter-spacing: 0;
   text-align: left;
   color: #091e42;
-  left: 24px;
-  right: 24px;
+  left: 1.5rem;
+  right: 1.5rem;
 }
 
 .stories {
-  width: 327px;
+  width: 20.4375rem;
   font-family: 'Inter', serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   text-align: left;
+  margin: 0.75rem 0;
 }
 
 .css-stories {
   font-family: 'Inter', serif;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 1.25rem;
   color: #091e42;
-  padding: 10px 12px 10px 12px;
+  padding: 0.625rem 0.75rem 0.625rem 0.75rem;
   border: 1px solid #8993a4;
   font-style: medium;
-  height: 40px;
-  width: 55px;
-  font-style: medium;
+  height: 2.5rem;
+  width: 3.4375rem;
   vertical-align: top;
   text-align: center;
+  display: inline-block;
 }
 
 .html-stories {
-  width: 67px;
-  height: 40px;
+  width: 4.1875rem;
+  height: 2.5rem;
   border: 1px solid #8993a4;
-  padding: 10px 12px 10px 12px;
+  padding: 0.625rem 0.75rem 0.625rem 0.75rem;
   font-family: 'Inter', serif;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 1.25rem;
   color: #091e42;
+  display: inline-block;
 }
 
 .boots-stories {
   width: 95px;
   height: 40px;
   border: 1px solid #8993a4;
-  padding: 10px 12px 10px 12px;
+  padding: 0.625rem 0.75rem 0.625rem 0.75rem;
   font-family: 'Inter', serif;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 1.25rem;
   color: #091e42;
+  text-align: center;
+  display: inline-block;
 }
 
 .ruby-stories {
   width: 61px;
   height: 40px;
   border: 1px solid #8993a4;
-  padding: 10px 12px 10px 12px;
+  padding: 0.625rem 0.75rem 0.625rem 0.75rem;
   font-family: 'Inter', serif;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 1.25rem;
   color: #091e42;
+  text-align: center;
+  display: inline-block;
 }
 
 .btn1 {
   font-family: 'Inter', serif;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 200;
-  line-height: 20px;
+  line-height: 1.25rem;
   letter-spacing: 0.05em;
   color: #091e42;
-  padding: 10px 12px;
-  border: 1px solid #1c1a19
+  padding: 0.625rem 0.75rem;
+  border: 1px solid #1c1a19;
 }
 
 .buttonss1 {
   position: relative;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: left;
   justify-content: space-between;
   list-style: none;
+  width: 20.4375rem;
 }
-.btn2 {
-  width: 124px;
-  padding: 12px;
-  border: none;
-  background: #ff6b00;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #fff;
-}
- 
+
 .sp-container {
-  /* width: 100%; */
   display: flex;
   justify-content: left;
-  
-} 
+}
 
 .seeproject {
   border: none;
-  width: 124px;
+  width: 7.75rem;
   background: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
+  font-size: 1.0625rem;
+  line-height: 1.5rem;
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
-  gap: 10px;
-  height: 48px;
-  margin-top: 12px;
+  gap: 0.625rem;
+  height: 3rem;
+  margin-top: 0.75rem;
 }
 
 .cardworks1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 12px;
-  width: 327px;
-  height: 386px;
+  gap: 0.75rem;
+  width: 20.4375rem;
+  height: 24.125rem;
   margin: 0;
-  background:linear-gradient(
-    180.45deg,
-    rgba(38, 38, 38, 0) 0.75%,
-    rgba(38, 38, 38, 0.9) 61.94%
-  ), url(./PImages/HRsnip.png);
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(./PImages/HRsnip.png);
   background-size: cover;
 }
 
@@ -367,15 +353,17 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 12px;
-  width: 327px;
-  height: 386px;
+  gap: 0.75rem;
+  width: 20.4375rem;
+  height: 24.125rem;
   margin: 0;
-  background:linear-gradient(
-    180.45deg,
-    rgba(38, 38, 38, 0) 0.75%,
-    rgba(38, 38, 38, 0.9) 61.94%
-  ), url(./PImages/digitalmarket.png);
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(./PImages/digitalmarket.png);
   background-size: cover;
 }
 
@@ -383,15 +371,17 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 12px;
-  width: 327px;
-  height: 386px;
+  gap: 0.75rem;
+  width: 20.4375rem;
+  height: 24.125rem;
   margin: 0;
-  background: linear-gradient(
-    180.45deg,
-    rgba(38, 38, 38, 0) 0.75%,
-    rgba(38, 38, 38, 0.9) 95.94%
-  ), url(./PImages/postone1.png);
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 95.94%
+    ),
+    url(./PImages/postone1.png);
   background-size: cover;
 }
 
@@ -399,15 +389,17 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 12px;
-  width: 327px;
-  height: 386px;
+  gap: 0.75rem;
+  width: 20.4375rem;
+  height: 24.125rem;
   margin: 0;
-  background: linear-gradient(
-    180.45deg,
-    rgba(38, 38, 38, 0) 0.75%,
-    rgba(38, 38, 38, 0.9) 95.94%
-  ), url(./PImages/buildingdesignconstruction.png);
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 95.94%
+    ),
+    url(./PImages/buildingdesignconstruction.png);
   background-size: cover;
 }
 
@@ -415,15 +407,17 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 12px;
-  width: 327px;
-  height: 386px;
+  gap: 0.75rem;
+  width: 20.4375rem;
+  height: 24.125rem;
   margin: 0;
-  background: linear-gradient(
-    180.45deg,
-    rgba(38, 38, 38, 0) 0.75%,
-    rgba(38, 38, 38, 0.9) 95.94%
-  ),url(./PImages/card-five.png);
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 95.94%
+    ),
+    url(./PImages/card-five.png);
   background-size: cover;
 }
 
@@ -431,9 +425,9 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 12px;
-  width: 327px;
-  height: 386px;
+  gap: 0.75rem;
+  width: 20.4375rem;
+  height: 24.125rem;
   margin: 0;
   background: url(./PImages/Img\ Placeholderforprof.png);
   background-size: cover;
@@ -441,65 +435,67 @@ main {
 
 .card1 {
   font-family: 'Crete Round', sans-serif;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 200;
-  line-height: 44px;
+  line-height: 2.75rem;
   letter-spacing: 0.02em;
-  margin-top: 72px;
-  margin-left: 13px;
-  margin-right: 13px;
+  margin-top: 4.5rem;
+  margin-left: 0.8125rem;
+  margin-right: 0.8125rem;
   text-align: left;
   color: #fff;
 }
 
 .cardtext {
   font-family: 'Inter', serif;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 200;
-  line-height: 24px;
+  line-height: 1.5rem;
   letter-spacing: 0.02em;
-  margin-left: 13px;
-  margin-right: 13px;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
   text-align: left;
   color: #fff;
 }
 
 .card-button {
-  width: 247px;
-  height: 40px;
-  margin-left: 13px;
+  width: 15.4375rem;
+  height: 2.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
   z-index: 222;
-  
 }
-.btn {
-  padding: 10px 12px;
-  background: rgba(255, 255, 255, 0.24);
-  color: #fff;
-}
+
 li {
   list-style: none;
 }
+
 .btn {
-  padding: 10px 12px;
+  padding: 0.625rem 0.75rem;
   background: rgba(255, 255, 255, 0.24);
   color: #fff;
+  width: 15.4375rem;
+  height: 2.5rem;
+  margin-left: 0.8125rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
 }
 
 .projects {
-  width: 327px;
-  height: 48px;
+  width: 20.4375rem;
+  height: 3rem;
   left: 0;
   top: 0;
   border: none;
   background: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
+  font-size: 1.0625rem;
+  line-height: 1.5rem;
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
@@ -509,12 +505,11 @@ li {
 
 .about-section {
   position: relative;
-  width: 375px;
   background: #1c1a19;
-  padding-top: 120px;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 50px;
+  padding-top: 7.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 3.125rem;
   height: 100%;
 }
 
@@ -525,70 +520,68 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px 0;
-  top: 20px;
+  gap: 2rem 0;
+  top: 1.25rem;
+  font-size: 1.375rem;
 }
 
 .language-section {
   display: flex;
   flex-direction: column;
-  gap: 44px 0;
+  gap: 2.75rem 0;
 }
 
 .about-myself {
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 44px 0;
-  margin-top: 80px;
+  gap: 2.75rem 0;
+  margin-top: 5rem;
 }
 
 .background-graphic {
   background-image: url("Mobile-illustration.png");
   position: absolute;
-  top: 384px;
-  width: 160px;
-  height: 250px;
+  top: 20rem;
+  width: 10rem;
+  height: 15.625rem;
   background-repeat: no-repeat;
   flex: none;
-  order: 4; 
+  order: 4;
   flex-grow: 0;
   background-size: cover;
   background-position: right;
   right: 0;
-} 
+}
 
 .about-heading {
   color: #ff6b00;
-  font-size: 72px;
-  text-align: left;
+  font-size: 4.5rem;
   font-weight: 400;
-  line-height: 88px;
-  letter-spacing: 0.05em;
+  line-height: 5.5rem;
   font-family: 'Crete Round', sans-serif;
   margin-left: 0;
+  margin-right: 0;
 }
 
 .horizontal-seperator-on-dark {
   border: 1px solid #f5f5f5;
-  border-radius: 5px;
-  margin-top: 150px;
+  border-radius: 0.3125rem;
+  margin-top: 11.25rem;
 }
 
 .about-section-p {
   color: #f4f5f7;
-  font-size: 16px;
-  margin-top: 24px;
+  font-size: 1rem;
+  margin-top: 1.5rem;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   text-align: left;
 }
 
 .about-introduction-content {
-  margin: 0 24px;
   display: flex;
-  gap: 24px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
@@ -596,13 +589,13 @@ li {
 
 .my-resume-button {
   border: 1px solid transparent;
-  line-height: 24px;
-  padding: 12px;
-  font-size: 17px;
+  line-height: 1.5rem;
+  padding: 0.75rem;
+  font-size: 1.0625rem;
   font-weight: 700;
   color: #fff;
   background-color: #ff6b00;
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 
 .my-resume-button:hover {
@@ -632,31 +625,54 @@ li {
   font-family: 'InaiMathi', serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 2rem;
+  line-height: 2.75rem;
   color: #fff;
 }
 
 .diamond {
-  height: 18px;
-  width: 18px;
+  height: 1.125rem;
+  width: 1.125rem;
   background-color: #ff6b00;
-  margin-right: 12px;
-  margin-top: 5px;
+  margin-right: 0.75rem;
+  margin-top: 0.3125rem;
   transform: rotate(45deg);
 }
 
 .square {
-  height: 18px;
-  width: 18px;
+  height: 1.125rem;
+  width: 1.125rem;
   background-color: #ff6b00;
-  margin-right: 12px;
+  margin-right: 0.75rem;
 }
 
 .circle {
-  height: 18px;
-  width: 18px;
+  height: 1.125rem;
+  width: 1.125rem;
   background-color: #ff6b00;
-  margin-right: 12px;
+  margin-right: 0.75rem;
   border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .background-graphic {
+    background-image: url("Mobile-illustration.png");
+    position: absolute;
+    top: 23.75rem;
+    width: 10rem;
+    height: 15.625rem;
+    background-repeat: no-repeat;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    background-size: cover;
+    background-position: right;
+    right: 0;
+  }
+
+  .horizontal-seperator-on-dark {
+    border: 1px solid #f5f5f5;
+    border-radius: 0.3125rem;
+    margin-top: 18.75rem;
+  }
 }
