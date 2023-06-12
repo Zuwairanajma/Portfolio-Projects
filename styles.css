@@ -302,10 +302,7 @@ header {
 
 .buttonss1 {
   position: relative;
-  display: flex;
-  flex-direction: row;
-  align-items: left;
-  justify-content: space-between;
+  float: left;
   list-style: none;
   width: 20.4375rem;
 }
