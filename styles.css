@@ -712,10 +712,11 @@ form {
   border-bottom: 1px solid #dbd8d7;
   padding: 14px 17px;
   margin-top: 1.2rem;
+  width: 327px;
 }
 
 .contact-fields textarea {
-  margin: 1.2rem 0;  
+  margin: 1.2rem 0;
 }
 
 .contact-wrapper form textarea {
@@ -767,7 +768,7 @@ textarea::placeholder {
 .hori-div {
   background-color: gray;
   width: 375px;
-  margin-top: 0;
+  margin-top: -10px;
   align-items: center;
 }
 
