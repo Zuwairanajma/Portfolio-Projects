@@ -714,6 +714,10 @@ form {
   margin-top: 1.2rem;
 }
 
+.contact-fields textarea {
+  margin: 1.2rem 0;  
+}
+
 .contact-wrapper form textarea {
   background: #fbf8f7;
   border: none;
