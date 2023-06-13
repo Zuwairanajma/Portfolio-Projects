@@ -654,6 +654,149 @@ li {
   border-radius: 50%;
 }
 
+.contact-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-wrapper {
+  width: 327px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 870px;
+  left: -1px;
+  top: 5887px;
+  border-radius: 0;
+  padding: 120px 24px 120px 24px;
+}
+
+.contact-header {
+  height: 262px;
+  width: 327px;
+  left: 24px;
+  top: 120px;
+  border-radius: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  line-height: 44px;
+  font-weight: 700;
+  text-align: center;
+  color: #172b4d;
+  margin-bottom: 70px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 327px;
+  left: 24px;
+  top: 440px;
+  border-radius: 0;
+}
+
+.contact-wrapper input::placeholder {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+}
+
+.contact-wrapper form input {
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  padding: 14px 17px;
+  margin-top: 1.2rem;
+}
+
+.contact-wrapper form textarea {
+  background: #fbf8f7;
+  border: none;
+  padding: 10px 10px;
+  height: 114px;
+  width: 327px;
+}
+
+textarea::placeholder {
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+}
+
+.btn-contact {
+  width: 131px;
+  height: 48px;
+  align-self: center;
+  font-family: "Inter", sans-serif;
+  border: 1px solid transparent;
+  line-height: 24px;
+  font-size: 17px;
+  padding: 12px;
+  font-weight: 700;
+  background-color: #f55800;
+  color: #dbd8d7;
+  margin-left: 100px;
+  margin-top: 0;
+}
+
+.footer {
+  gap: 14px;
+  display: flex;
+  width: 200px;
+  height: 72px;
+  align-items: center;
+  margin-left: 88px;
+  margin-right: 87px;
+  margin-bottom: 40px;
+  flex-direction: column;
+  justify-content: inline-block;
+}
+
+.hori-div {
+  background-color: gray;
+  width: 375px;
+  margin-top: 0;
+  align-items: center;
+}
+
+.image-icons-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  border-radius: 8px;
+  padding: 8px;
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+  align-items: left;
+  margin-left: 2px;
+}
+
+.last-line {
+  background: #0d151e;
+  height: 5px;
+  width: 134px;
+  left: 120px;
+  margin-top: 21px;
+  border-radius: 10px;
+  margin-bottom: 11px;
+  position: bottom center;
+}
+
+.portfolio-cards {
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (min-width: 768px) {
   .background-graphic {
     background-image: url("Mobile-illustration.png");
