@@ -49,6 +49,11 @@ header {
 
 .fa-bars {
   color: white;
+  transition: 1s ease-in-out;
+}
+
+.fa-bars:hover {
+  transform: scale(1.2);
 }
 
 .logo {
@@ -63,6 +68,12 @@ header {
   order: 0;
   margin-left: 0.625rem;
   text-decoration: none;
+  transition: 1s ease-in;
+}
+
+.logo:hover {
+  color: #ff6b00;
+  transform: scale(1.2);
 }
 
 .headline {
