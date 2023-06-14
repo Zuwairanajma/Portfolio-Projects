@@ -331,6 +331,21 @@ header {
   margin-top: 0.75rem;
 }
 
+.seeproject:hover {
+  color: #f55800;
+  background-color: #fff5e1;
+}
+
+.seeproject:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.seeproject:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+}
+
 .cardworks1 {
   display: flex;
   flex-direction: column;
@@ -747,9 +762,24 @@ textarea::placeholder {
   padding: 12px;
   font-weight: 700;
   background-color: #f55800;
-  color: #dbd8d7;
+  color: #fff;
   margin-left: 100px;
   margin-top: 0;
+}
+
+.btn-contact:hover {
+  color: #f55800;
+  background-color: #fff5e1;
+}
+
+.btn-contact:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.btn-contact:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
 }
 
 .footer {
@@ -766,7 +796,7 @@ textarea::placeholder {
 }
 
 .hori-div {
-  background-color: gray;
+  background-color: #dfe1e6;
   width: 375px;
   margin-top: -10px;
   align-items: center;
