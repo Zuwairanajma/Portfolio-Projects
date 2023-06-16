@@ -1,4 +1,4 @@
-<a name="readme-top"></a>
+# 📖 "Portfolio Project!" <a name="readme-top"></a>
 
 # 📗 Table of Contents
 
@@ -21,8 +21,12 @@
 # 📖 "Portfolio Project!" <a name="about-project"></a>
 
 
-Portfolio Project is a HTML and CSS Mobile view portfolio project for a web developer. This part consist of just The toolbar and headline section.
-The work version and about me version. 
+Portfolio Project is a HTML and CSS Mobile view portfolio project for a web developer. This part consist of The following sections
+-Toolbar and headline section.
+-The work version and about me version. 
+-The contact form.
+-The desktop version.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 ### Tech Stack <a name="tech-stack"></a>
@@ -55,7 +59,7 @@ The work version and about me version.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-Currently, there's no working link for this project.
+You can view this project using this URL "https://zuwairanajma.github.io/Portfolio-Projects/"
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p
 
