@@ -12,12 +12,18 @@
 </head>
 <body>
   <!-- Toolbar Header Section Starts -->
-    <header> 
-        <div id= "head-wrap" class="headbar">
-          <a href ="#" class="logo">ZUWAIRA</a>
-  <nav class ="headbar-menu">
-    <i class="fas fa-bars fa-lg"></i>
-  </nav></div>
+  <header> 
+    <div id= "head-wrap" class="headbar">
+      <a href ="#" class="logo">ZUWAIRA</a>
+<nav class ="headbar-menu">
+  <div class="hamburger"><i class="fas fa-bars fa-lg"></i></div>
+<ul class="menu-items">
+  <li><a href="#portfolio">Portfolio</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><img src="PImages/Icon - Mail.png" alt=""></li>
+</ul>
+</nav></div>
 </header>
 <!-- Toolbar Header Section ends -->
 
@@ -25,7 +31,7 @@
  <!-- Headline Section Starts -->
     <section class="headline">
     <div class="container_text">
-        <h1 class="ptext">Hey There. I'm Zuwaira.</h1>
+        <h1 class="ptext">Hey There. <br> I'm Zuwaira.</h1>
         <h3 class="stext">I'm a Software Developer</h3>
         <p class="description">I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
             don’t hesitate to contact me.
@@ -46,28 +52,25 @@
     <!-- Recent Works Section Start -->
 
     <section id="My-Recent" class="My-Recent">
-        <div id="recent-works_container" class="recent-works">
-        <h5 id="my-work" class="my-work">My Recent Works</h5>
-      <div>
-        <hr class="divider">
+      <div id="recent-works_container" class="recent-works">
+      <h5 id="my-work" class="my-work">My Recent Works</h5>
+      <hr class="divider">
+      </div>
+      <div id="multip" class="multipost">
+    <img class = "placeholder" src="PImages/Img Placeholder.png" alt="">
+    <div class="post">
+     <h3 id="multi" class="multi">Multi-Post Stories</h3>
+      <p id="stories" class="stories">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+        <ul id="buttons1" class="buttonss1">
+           <li class="css-stories">CSS</li>
+           <li class="html-stories">HTML</li>
+           <li class="boots-stories">Bootstrap</li>
+           <li class="ruby-stories">Ruby</li>
+        </ul>
+        <button id="seeproject" class="seeproject">See project</button>
       </div>
     </div>
-      <div>
-      <img class = "placeholder" src="PImages/Img Placeholder.png" alt="">
-    </div>
-          <div id="multip" class="multipost">
-              <h3 id="multi" class="multi">Multi-Post Stories</h3>
-              <p id="stories" class="stories">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-          <ul id="buttons1" class="buttonss1">
-             <li class="css-stories">CSS</li>
-             <li class="html-stories">HTML</li>
-             <li class="boots-stories">Bootstrap</li>
-             <li class="ruby-stories">Ruby</li>
-          </ul>
-          <div class="sp-container">
-          <button id="seeproject" class="seeproject">See project</button>
-        </div>
-      </div>
+      <div class="portfolio-cards">
   <div class="cardworks" id="cards">
           <div class="card-image1" id="card-image"></div>
             <h3 class="card1">Professional Art Printing Data</h3>
@@ -133,29 +136,28 @@
         <button class = "projects btn-primary btn-lg">See project</button>  
        </div>
       </div>
+      </div>
    </section> 
     <!--Recent Works Section End  -->
 
     <!-- About me section -->
     <section id="about-section" class="about-section">
-        <div class="about-introduction-content">
+      <div class="about-introduction-content">
+        <div class="about-text">
           <h2 class="about-heading">About me</h2>
-        </div>
-        
-          <div class="about-section-p"> 
-            <p>Hey there! I can help you build a product, feature or website. Look
-            through some of my work and experience! If you like what you see and
-            have a project you need coded, don't hesitate to contact me.
-          </p>
-        </div>
-        <a href="#" class="my-resume_link">
-          <button class="my-resume-button" type="button">Get My Resume</button>
-        </a>
-        <div class="background-graphic">
-        </div>
-        <div>
-          <hr class="horizontal-seperator-on-dark"/>
-        </div>
+          <p class="about-section-p">Hey there! I can help you build a product, feature or website. Look
+          through some of my work and experience! If you like what you see and
+          have a project you need coded, don't hesitate to contact me.
+        </p>
+      <a href="#" class="my-resume_link">
+        <button class="my-resume-btn" type="button">Get My Resume</button>
+      </a></div>
+      <div class="background-graphic">
+      </div>
+      </div>
+      <div>
+        <hr class="horizontal-seperator-on-dark"/>
+      </div>
     <div class="about-myself">
       <ul class="language-section">
         <li class="list-style">
@@ -183,7 +185,7 @@
       <ul class="language-section">
         <li class="list-style" id="skills">
           <div class="circle"></div>
-          <h2>Skills</h2>
+          <h2 class="skills">Skills</h2>
         </li>
         <ul class="about-section-content">
           <li>Database Management</li>
