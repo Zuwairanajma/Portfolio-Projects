@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700;900&family=Open+Sans:wght@400;500;600&family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700;900&family=Open+Sans:wght@400;500;600&family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@400;700;900&display=swap");
 
 :root {
   --white: #fff;
@@ -52,7 +52,7 @@ header {
 }
 
 .logo {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18pt;
@@ -97,7 +97,7 @@ header {
 .ptext {
   color: #ff6b00;
   width: 90%;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 3.5rem;
@@ -111,7 +111,7 @@ header {
 .stext {
   width: 87.2%;
   height: 1.6875rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.5rem;
@@ -125,7 +125,7 @@ header {
 
 .description {
   width: 87.2%;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.25rem;
@@ -178,7 +178,7 @@ header {
 }
 
 .my-work {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 2.5rem;
   font-weight: 400;
   line-height: 3.25rem;
@@ -215,7 +215,7 @@ header {
 }
 
 .multi {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 2rem;
   font-weight: 400;
   line-height: 2.75rem;
@@ -228,7 +228,7 @@ header {
 
 .stories {
   width: 20.4375rem;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -237,7 +237,7 @@ header {
 }
 
 .css-stories {
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-size: 0.9375rem;
   font-weight: 500;
   line-height: 1.25rem;
@@ -256,7 +256,7 @@ header {
   height: 2.5rem;
   border: 1px solid #8993a4;
   padding: 0.625rem 0.75rem 0.625rem 0.75rem;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-size: 0.9375rem;
   font-weight: 500;
   line-height: 1.25rem;
@@ -269,7 +269,7 @@ header {
   height: 40px;
   border: 1px solid #8993a4;
   padding: 0.625rem 0.75rem 0.625rem 0.75rem;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-size: 0.9375rem;
   font-weight: 500;
   line-height: 1.25rem;
@@ -283,7 +283,7 @@ header {
   height: 40px;
   border: 1px solid #8993a4;
   padding: 0.625rem 0.75rem 0.625rem 0.75rem;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-size: 0.9375rem;
   font-weight: 500;
   line-height: 1.25rem;
@@ -293,7 +293,7 @@ header {
 }
 
 .btn1 {
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-size: 0.9375rem;
   font-weight: 200;
   line-height: 1.25rem;
@@ -321,7 +321,7 @@ header {
   border: none;
   width: 7.75rem;
   background: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 1.0625rem;
   line-height: 1.5rem;
@@ -356,8 +356,7 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
@@ -374,8 +373,7 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
@@ -392,8 +390,7 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 95.94%
@@ -410,8 +407,7 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 95.94%
@@ -428,8 +424,7 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 95.94%
@@ -451,7 +446,7 @@ header {
 }
 
 .card1 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 2rem;
   font-weight: 200;
   line-height: 2.75rem;
@@ -464,7 +459,7 @@ header {
 }
 
 .cardtext {
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-size: 0.9375rem;
   font-weight: 200;
   line-height: 1.5rem;
@@ -510,7 +505,7 @@ li {
   top: 0;
   border: none;
   background: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 1.0625rem;
   line-height: 1.5rem;
@@ -577,7 +572,7 @@ li {
   font-size: 4.5rem;
   font-weight: 400;
   line-height: 5.5rem;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   margin-left: 0;
   margin-right: 0;
 }
@@ -592,7 +587,7 @@ li {
   color: #f4f5f7;
   font-size: 1rem;
   margin-top: 1.5rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 1.5rem;
   text-align: left;
@@ -640,7 +635,7 @@ li {
 }
 
 .list-style h2 {
-  font-family: 'InaiMathi', serif;
+  font-family: "InaiMathi", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 2rem;
@@ -697,7 +692,7 @@ li {
   left: 24px;
   top: 120px;
   border-radius: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 2rem;
   line-height: 44px;
   font-weight: 700;
@@ -717,7 +712,7 @@ form {
 }
 
 .contact-wrapper input::placeholder {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -746,7 +741,7 @@ form {
 }
 
 textarea::placeholder {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
@@ -813,7 +808,6 @@ textarea::placeholder {
   width: 200px;
   height: 40px;
   margin-top: 10px;
-  /* align-items: left; */
   margin-left: 2px;
 }
 
@@ -825,7 +819,6 @@ textarea::placeholder {
   margin-top: 21px;
   border-radius: 10px;
   margin-bottom: 11px;
-  /* position: bottom center; */
 }
 
 .portfolio-cards {
@@ -864,7 +857,6 @@ textarea::placeholder {
 
   .menu-items {
     display: flex;
-    /* justify-content: baseline; */
     gap: 30px;
   }
 
@@ -872,7 +864,7 @@ textarea::placeholder {
     color: white;
     text-decoration: none;
     font-size: 15px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 
   .headline {
@@ -904,7 +896,7 @@ textarea::placeholder {
   .stext {
     width: 45.3%;
     height: 27px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -915,7 +907,7 @@ textarea::placeholder {
   }
 
   .description {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1029,8 +1021,7 @@ textarea::placeholder {
     text-align: left;
     font-size: 18px;
     width: 510px;
-    /* border-radius: nullpx; */
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 300;
     line-height: 32px;
     color: #f4f5f7;
@@ -1061,8 +1052,7 @@ textarea::placeholder {
     padding-top: -5px;
     height: 256px;
     width: 420px;
-    /* border-radius: nullpx; */
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 
   .image-icons-footer {
