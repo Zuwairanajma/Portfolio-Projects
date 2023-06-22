@@ -523,8 +523,7 @@ li {
 
 .about-section {
   position: relative;
-  background: rgb(145, 145, 178);
-  /* background: #1c1a19; */
+  background: #1c1a19;
   padding-top: 7.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -613,19 +612,19 @@ li {
   font-size: 1.0625rem;
   font-weight: 700;
   color: #fff;
-  background-color: #8f3c00; /* I edit this color */
+  background-color: rgb(150, 75, 0); /* I edit this color */
   margin-top: 1.875rem;
 }
 
 .my-resume-btn:hover {
-  border: 1px solid #8f3c00; /* I edit this color */
+  border: 1px solid rgb(150, 75, 0); /* I edit this color */
   background-color: #fff5e1;
-  color: #8f3c00; /* I edit this color */
+  color: rgb(150, 75, 0); /* I edit this color */
 }
 
 .my-resume-btn:active {
   background-color: #fff;
-  color: #8f3c00; /* I edit this color */
+  color: rgb(150, 75, 0); /* I edit this color */
 }
 
 .my-resume-btn:disabled {
