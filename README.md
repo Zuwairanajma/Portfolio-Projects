@@ -155,7 +155,7 @@ I would like to appreciate and acknowledge the esteem Microverse program for pro
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-**No FAQ for now**
+**No FAQs for now**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
