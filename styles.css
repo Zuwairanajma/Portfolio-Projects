@@ -320,7 +320,7 @@ header {
 .seeproject {
   border: none;
   width: 7.75rem;
-  background: #ff6b00;
+  background: #8f3c00; /* I Edit this color */
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 1.0625rem;
@@ -334,12 +334,12 @@ header {
 }
 
 .seeproject:hover {
-  color: #f55800;
+  color: #8f3c00; /* I Edit this color */
   background-color: #fff5e1;
 }
 
 .seeproject:active {
-  background-color: #e05304;
+  background-color: #8f3c00; /* I Edit this color */
   color: #f4f1f0;
 }
 
@@ -356,8 +356,7 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
@@ -374,8 +373,7 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
@@ -392,8 +390,7 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 95.94%
@@ -410,8 +407,7 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 95.94%
@@ -428,8 +424,7 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 95.94%
@@ -509,7 +504,7 @@ li {
   left: 0;
   top: 0;
   border: none;
-  background: #ff6b00;
+  background: #8f3c00; /*i Edit this color*/
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 1.0625rem;
@@ -612,14 +607,14 @@ li {
   font-size: 1.0625rem;
   font-weight: 700;
   color: #fff;
-  background-color: #ff6b00;
+  background-color: #8f3c00; /* I edit this color */
   margin-top: 1.875rem;
 }
 
 .my-resume-btn:hover {
-  border: 1px solid #f55800;
+  border: 1px solid #8f3c00; /* I edit this color */
   background-color: #fff5e1;
-  color: #f55800;
+  color: #8f3c00; /* I edit this color */
 }
 
 .my-resume-btn:active {
@@ -764,14 +759,14 @@ textarea::placeholder {
   font-size: 17px;
   padding: 12px;
   font-weight: 700;
-  background-color: #f55800;
+  background-color: #8f3c00; /* I edit this parts color*/
   color: #fff;
   margin-left: 100px;
   margin-top: 0;
 }
 
 .btn-contact:hover {
-  color: #f55800;
+  color: #8f3c00; /* I edit this parts color*/
   background-color: #fff5e1;
 }
 
