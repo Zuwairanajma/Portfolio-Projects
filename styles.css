@@ -320,33 +320,32 @@ header {
 .seeproject {
   border: none;
   width: 7.75rem;
-  background: rgb(127, 60, 10);
-  /* background: #ff6b00; */
+  background: #ff6b00;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 1.0625rem;
   line-height: 1.5rem;
   text-align: center;
   letter-spacing: 0.03em;
-  color: rgb(253, 244, 222);
+  color: #fff;
   gap: 0.625rem;
   height: 3rem;
   margin-top: 0.75rem;
 }
 
 .seeproject:hover {
-  color: rgb(127, 60, 10);
-  background-color: rgb(253, 244, 222);
+  color: #f55800;
+  background-color: #fff5e1;
 }
 
 .seeproject:active {
-  background-color: #858382;
+  background-color: #e05304;
   color: #f4f1f0;
 }
 
 .seeproject:disabled {
-  color: rgb(127, 60, 10);
-  background-color: rgb(253, 244, 222);
+  background-color: #f4f1f0;
+  color: #5b5957;
 }
 
 .cardworks1 {
@@ -357,7 +356,8 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
@@ -374,7 +374,8 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
@@ -391,7 +392,8 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 95.94%
@@ -408,7 +410,8 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 95.94%
@@ -425,7 +428,8 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 95.94%
@@ -488,8 +492,8 @@ li {
 
 .btn {
   padding: 0.625rem 0.75rem;
-  background: rgba(127, 60, 10);
-  color: rgb(253, 244, 222);
+  background: rgba(255, 255, 255, 0.24);
+  color: #fff;
   width: 15.4375rem;
   height: 2.5rem;
   margin-left: 0.8125rem;
@@ -505,14 +509,14 @@ li {
   left: 0;
   top: 0;
   border: none;
-  background: rgb(127, 60, 10);
+  background: #ff6b00;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 1.0625rem;
   line-height: 1.5rem;
   text-align: center;
   letter-spacing: 0.03em;
-  color: rgb(253, 244, 222);
+  color: #fff;
 }
 
 /* About me Section */
@@ -607,20 +611,20 @@ li {
   padding: 0.75rem;
   font-size: 1.0625rem;
   font-weight: 700;
-  color: rgb(253, 244, 22);
-  background-color: rgb(127, 60, 10);
+  color: #fff;
+  background-color: #ff6b00;
   margin-top: 1.875rem;
 }
 
 .my-resume-btn:hover {
-  /* border: 1px solid #f55800; */
-  background-color: rgb(127, 60, 10);
-  color: rgb(253, 244, 22);
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
 }
 
 .my-resume-btn:active {
-  background-color: rgb(127, 60, 10);
-  color: rgb(253, 244, 22);
+  background-color: #e05304;
+  color: #f4f1f0;
 }
 
 .my-resume-btn:disabled {
@@ -760,25 +764,25 @@ textarea::placeholder {
   font-size: 17px;
   padding: 12px;
   font-weight: 700;
-  background-color: rgb(127, 60, 10);
-  color: rgb(253, 244, 222);
+  background-color: #f55800;
+  color: #fff;
   margin-left: 100px;
   margin-top: 0;
 }
 
 .btn-contact:hover {
-  color: rgb(127, 60, 10);
-  background-color: rgb(253, 244, 222);
+  color: #f55800;
+  background-color: #fff5e1;
 }
 
 .btn-contact:active {
-  background-color: rgb(133, 128, 128);
+  background-color: #e05304;
   color: #f4f1f0;
 }
 
 .btn-contact:disabled {
-  color: rgb(127, 60, 10);
-  background-color: rgb(253, 244, 222);
+  background-color: #f4f1f0;
+  color: #5b5957;
 }
 
 .footer {
