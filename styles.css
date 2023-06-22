@@ -344,7 +344,7 @@ header {
 }
 
 .seeproject:disabled {
-  background-color: #e5e5e5;
+  background-color: #f4f1f0;
   color: #5b5957;
 }
 
@@ -523,7 +523,8 @@ li {
 
 .about-section {
   position: relative;
-  background: #1c1a19;
+  background: rgb(145, 145, 178);
+  /* background: #1c1a19; */
   padding-top: 7.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
