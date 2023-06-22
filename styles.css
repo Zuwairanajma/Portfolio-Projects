@@ -619,8 +619,8 @@ li {
   padding: 0.75rem;
   font-size: 1.0625rem;
   font-weight: 700;
-  color: #fff;
-  background-color: #363636; /* I edit this color */
+  color: black;
+  background-color: #fff; /* I edit this color */
   margin-top: 1.875rem;
 }
 
