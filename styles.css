@@ -327,7 +327,7 @@ header {
   line-height: 1.5rem;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #fff;
+  color: #e5e5e5;
   gap: 0.625rem;
   height: 3rem;
   margin-top: 0.75rem;
@@ -335,16 +335,16 @@ header {
 
 .seeproject:hover {
   color: #8f3c00; /* I Edit this color */
-  background-color: #fff;
+  background-color: #e5e5e5;
 }
 
 .seeproject:active {
   background-color: #8f3c00; /* I Edit this color */
-  color: #fff;
+  color: #e5e5e5;
 }
 
 .seeproject:disabled {
-  background-color: #f4f1f0;
+  background-color: #e5e5e5;
   color: #5b5957;
 }
 
@@ -776,6 +776,11 @@ textarea::placeholder {
 }
 
 .btn-contact:active {
+  background-color: #8f3c00; /* I edit this parts color */
+  color: #fff;
+}
+
+.btn-contact:focus {
   background-color: #8f3c00; /* I edit this parts color */
   color: #fff;
 }
