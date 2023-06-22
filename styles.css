@@ -320,26 +320,27 @@ header {
 .seeproject {
   border: none;
   width: 7.75rem;
-  background: #ff6b00;
+  background: lightgrey;
+  /* background: #ff6b00; */
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 1.0625rem;
   line-height: 1.5rem;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #fff;
+  color: #4c4ff3;
   gap: 0.625rem;
   height: 3rem;
   margin-top: 0.75rem;
 }
 
 .seeproject:hover {
-  color: #f55800;
-  background-color: #fff5e1;
+  color: lightgrey;
+  background-color: #4c4ff3;
 }
 
 .seeproject:active {
-  background-color: #e05304;
+  background-color: #858382;
   color: #f4f1f0;
 }
 
