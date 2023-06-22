@@ -153,12 +153,6 @@ I would like to appreciate and acknowledge the esteem Microverse program for pro
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-**No FAQs for now**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
