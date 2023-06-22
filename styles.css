@@ -356,7 +356,8 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
@@ -373,7 +374,8 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
@@ -390,7 +392,8 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 95.94%
@@ -407,7 +410,8 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 95.94%
@@ -424,7 +428,8 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 95.94%
@@ -441,8 +446,13 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  background-color: #252424;
-  background: url(./PImages/Img\ Placeholderforprof.png);
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 95.94%
+    ),
+    url(./PImages/Img\ Placeholderforprof.png);
   background-size: cover;
 }
 
@@ -505,7 +515,7 @@ li {
   left: 0;
   top: 0;
   border: none;
-  background: #8f3c00; /*i Edit this color*/
+  background: #8f3c00; /* i Edit this color */
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 1.0625rem;
@@ -760,14 +770,14 @@ textarea::placeholder {
   font-size: 17px;
   padding: 12px;
   font-weight: 700;
-  background-color: #8f3c00; /* I edit this parts color*/
+  background-color: #8f3c00; /* I edit this parts color */
   color: #fff;
   margin-left: 100px;
   margin-top: 0;
 }
 
 .btn-contact:hover {
-  color: #8f3c00; /* I edit this parts color*/
+  color: #8f3c00; /* I edit this parts color */
   background-color: #fff5e1;
 }
 
