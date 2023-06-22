@@ -320,7 +320,7 @@ header {
 .seeproject {
   border: none;
   width: 7.75rem;
-  background: lightgrey;
+  background: rgb(133, 128, 128);
   /* background: #ff6b00; */
   font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -328,15 +328,15 @@ header {
   line-height: 1.5rem;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #4c4ff3;
+  color: #fff5e1;
   gap: 0.625rem;
   height: 3rem;
   margin-top: 0.75rem;
 }
 
 .seeproject:hover {
-  color: lightgrey;
-  background-color: #4c4ff3;
+  color: rgb(133, 128, 128);
+  background-color: #fff5e1;
 }
 
 .seeproject:active {
@@ -510,7 +510,7 @@ li {
   left: 0;
   top: 0;
   border: none;
-  background: #ff6b00;
+  background: rgb(133, 128, 128);
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 1.0625rem;
@@ -613,19 +613,19 @@ li {
   font-size: 1.0625rem;
   font-weight: 700;
   color: #fff;
-  background-color: #ff6b00;
+  background-color: rgb(133, 128, 128);
   margin-top: 1.875rem;
 }
 
 .my-resume-btn:hover {
-  border: 1px solid #f55800;
+  /* border: 1px solid #f55800; */
   background-color: #fff5e1;
-  color: #f55800;
+  color: rgb(133, 128, 128);
 }
 
 .my-resume-btn:active {
-  background-color: #e05304;
-  color: #f4f1f0;
+  background-color: #fff5e1;
+  color:rgb(133, 128, 128);
 }
 
 .my-resume-btn:disabled {
@@ -765,19 +765,19 @@ textarea::placeholder {
   font-size: 17px;
   padding: 12px;
   font-weight: 700;
-  background-color: #f55800;
+  background-color: rgb(133, 128, 128);
   color: #fff;
   margin-left: 100px;
   margin-top: 0;
 }
 
 .btn-contact:hover {
-  color: #f55800;
+  color: rgb(133, 128, 128);
   background-color: #fff5e1;
 }
 
 .btn-contact:active {
-  background-color: #e05304;
+  background-color: rgb(133, 128, 128);
   color: #f4f1f0;
 }
 
