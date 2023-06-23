@@ -357,14 +357,13 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  /* background:
+  background:
     linear-gradient(
       180.45deg,
       rgba(200, 200, 200, 1) 0.75%,
       rgba(158, 158, 158, 0.9) 61.94%
     ),
-    url(./PImages/Img\ Placeholderforprof.png); */
-  background: url(./PImages/Img\ Placeholderforprof.png);
+    url(./PImages/Img\ Placeholderforprof.png);
   background-size: cover;
 }
 
@@ -518,14 +517,14 @@ li {
   top: 0;
   border: none;
   /* background: lightgrey; */
-  background: #8f3c00;
+  background: #d9ffff;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 1.0625rem;
   line-height: 1.5rem;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #e5e5e5;
+  color: black;
 }
 
 /* About me Section */
