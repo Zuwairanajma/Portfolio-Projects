@@ -538,8 +538,6 @@ li {
 .about-section {
   position: relative;
   background: rgb(0, 0, 0);
-
-  /* background: #1c1a19; */
   padding-top: 7.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -628,19 +626,18 @@ li {
   font-size: 1.0625rem;
   font-weight: 700;
   color: black;
-  background-color: red; /* I edit this color */
+  background-color: red; 
   margin-top: 1.875rem;
 }
 
 .my-resume-btn:hover {
-  /* border: 1px solid #363636 ; I edit this color */
   background-color: #fff5e1 !important;
-  color: #363636 !important; /* I edit this color */
+  color: #363636 !important;
 }
 
 .my-resume-btn:active {
   background-color: red !important;
-  color: black !important; /* I edit this color */
+  color: black !important;
 }
 
 .my-resume-btn:disabled {
@@ -780,24 +777,24 @@ textarea::placeholder {
   font-size: 17px;
   padding: 12px;
   font-weight: 700;
-  background-color: #8f3c00; /* I edit this parts color */
+  background-color: #8f3c00;
   color: #fff;
   margin-left: 100px;
   margin-top: 0;
 }
 
 .btn-contact:hover {
-  color: #8f3c00; /* I edit this parts color */
+  color: #8f3c00;
   background-color: #fff;
 }
 
 .btn-contact:active {
-  background-color: #8f3c00; /* I edit this parts color */
+  background-color: #8f3c00;
   color: #fff;
 }
 
 .btn-contact:focus {
-  background-color: #8f3c00; /* I edit this parts color */
+  background-color: #8f3c00;
   color: #fff;
 }
 
@@ -987,10 +984,6 @@ textarea::placeholder {
     grid-row-gap: 24px;
     grid-column-gap: 14px;
   }
-
-  /* #cards {
-    gap: 0.2rem;
-  } */
 
   .projects {
     display: none;
