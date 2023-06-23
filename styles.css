@@ -320,7 +320,8 @@ header {
 .seeproject {
   border: none;
   width: 7.75rem;
-  background: #8f3c00; /* I Edit this color */
+  background: red;
+  /* background: #8f3c00; I Edit this color */
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 1.0625rem;
@@ -522,8 +523,9 @@ li {
   left: 0;
   top: 0;
   border: none;
+  background: red;
   /* background: lightgrey; */
-  background: #8f3c00;  /*i*/
+  /* background: #8f3c00;  i */
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 1.0625rem;
