@@ -17,7 +17,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-} 
+}
 
 body {
   height: 100%;
@@ -373,11 +373,11 @@ header {
   height: 24.125rem;
   margin: 0;
   background:
-  linear-gradient(
-    180.45deg,
-    rgba(200, 200, 200, 1) 100%,
-    rgba(200, 200, 200, 1) 95.94%
-  ),
+    linear-gradient(
+      180.45deg,
+      rgba(200, 200, 200, 1) 100%,
+      rgba(200, 200, 200, 1) 95.94%
+    ),
     url(./PImages/Img\ Placeholderforprof.png);
   background-size: cover;
 }
@@ -427,11 +427,11 @@ header {
   height: 24.125rem;
   margin: 0;
   background:
-  linear-gradient(
-    180.45deg,
-    rgba(200, 200, 200, 1) 100%,
-    rgba(200, 200, 200, 1) 95.94%
-  ),
+    linear-gradient(
+      180.45deg,
+      rgba(200, 200, 200, 1) 100%,
+      rgba(200, 200, 200, 1) 95.94%
+    ),
     url(./PImages/Img\ Placeholderforprof.png);
   background-size: cover;
 }
@@ -510,6 +510,7 @@ li {
 .projects {
   width: 20.4375rem;
   height: 3rem;
+
   /* left: 0;
   top: 0; */
   border: none;
@@ -626,7 +627,7 @@ li {
   font-size: 1.0625rem;
   font-weight: 700;
   color: black;
-  background-color: red; 
+  background-color: red;
   margin-top: 1.875rem;
 }
 
