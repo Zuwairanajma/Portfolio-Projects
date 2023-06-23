@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700;900&family=Open+Sans:wght@400;500;600&family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700;900&family=Open+Sans:wght@400;500;600&family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@400;700;900&display=swap");
 
 :root {
   --white: #fff;
@@ -17,8 +17,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-
-  /* overflow-x: hidden !important; */
 }
 
 body {
@@ -52,9 +50,9 @@ header {
 }
 
 .logo {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 1em;
+  font-weight: 700;
   font-size: 18pt;
   line-height: 1.5rem;
   align-items: center;
@@ -97,7 +95,7 @@ header {
 .ptext {
   color: #ff6b00;
   width: 90%;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 3.5rem;
@@ -111,7 +109,7 @@ header {
 .stext {
   width: 87.2%;
   height: 1.6875rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.5rem;
@@ -125,7 +123,7 @@ header {
 
 .description {
   width: 87.2%;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.25rem;
@@ -178,7 +176,7 @@ header {
 }
 
 .my-work {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 2.5rem;
   font-weight: 400;
   line-height: 3.25rem;
@@ -215,7 +213,7 @@ header {
 }
 
 .multi {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 2rem;
   font-weight: 400;
   line-height: 2.75rem;
@@ -228,7 +226,7 @@ header {
 
 .stories {
   width: 20.4375rem;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -237,14 +235,13 @@ header {
 }
 
 .css-stories {
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-size: 0.9375rem;
   font-weight: 500;
   line-height: 1.25rem;
   color: #091e42;
   padding: 0.625rem 0.75rem 0.625rem 0.75rem;
   border: 1px solid #8993a4;
-  font-style: medium;
   height: 2.5rem;
   width: 3.4375rem;
   vertical-align: top;
@@ -257,7 +254,7 @@ header {
   height: 2.5rem;
   border: 1px solid #8993a4;
   padding: 0.625rem 0.75rem 0.625rem 0.75rem;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-size: 0.9375rem;
   font-weight: 500;
   line-height: 1.25rem;
@@ -270,7 +267,7 @@ header {
   height: 40px;
   border: 1px solid #8993a4;
   padding: 0.625rem 0.75rem 0.625rem 0.75rem;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-size: 0.9375rem;
   font-weight: 500;
   line-height: 1.25rem;
@@ -284,7 +281,7 @@ header {
   height: 40px;
   border: 1px solid #8993a4;
   padding: 0.625rem 0.75rem 0.625rem 0.75rem;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-size: 0.9375rem;
   font-weight: 500;
   line-height: 1.25rem;
@@ -294,7 +291,7 @@ header {
 }
 
 .btn1 {
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-size: 0.9375rem;
   font-weight: 200;
   line-height: 1.25rem;
@@ -308,7 +305,6 @@ header {
   position: relative;
   display: flex;
   flex-direction: row;
-  align-items: left;
   justify-content: space-between;
   list-style: none;
   width: 20.4375rem;
@@ -322,27 +318,27 @@ header {
 .seeproject {
   border: none;
   width: 7.75rem;
-  background: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  background: #8f3c00;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 1.0625rem;
   line-height: 1.5rem;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #fff;
+  color: #e5e5e5;
   gap: 0.625rem;
   height: 3rem;
   margin-top: 0.75rem;
 }
 
 .seeproject:hover {
-  color: #f55800;
-  background-color: #fff5e1;
+  color: #8f3c00;
+  background-color: #e5e5e5;
 }
 
 .seeproject:active {
-  background-color: #e05304;
-  color: #f4f1f0;
+  background-color: #8f3c00;
+  color: #e5e5e5;
 }
 
 .seeproject:disabled {
@@ -361,10 +357,10 @@ header {
   background:
     linear-gradient(
       180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
+      rgba(200, 200, 200, 1) 100%,
+      rgba(200, 200, 200, 1) 100%
     ),
-    url(./PImages/HRsnip.png);
+    url(./PImages/Img\ Placeholderforprof.png);
   background-size: cover;
 }
 
@@ -379,10 +375,10 @@ header {
   background:
     linear-gradient(
       180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
+      rgba(200, 200, 200, 1) 100%,
+      rgba(200, 200, 200, 1) 95.94%
     ),
-    url(./PImages/digitalmarket.png);
+    url(./PImages/Img\ Placeholderforprof.png);
   background-size: cover;
 }
 
@@ -397,10 +393,10 @@ header {
   background:
     linear-gradient(
       180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 95.94%
+      rgba(200, 200, 200, 1) 100%,
+      rgba(200, 200, 200, 1) 95.94%
     ),
-    url(./PImages/postone1.png);
+    url(./PImages/Img\ Placeholderforprof.png);
   background-size: cover;
 }
 
@@ -415,10 +411,10 @@ header {
   background:
     linear-gradient(
       180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 95.94%
+      rgba(200, 200, 200, 1) 100%,
+      rgba(200, 200, 200, 1) 95.94%
     ),
-    url(./PImages/buildingdesignconstruction.png);
+    url(./PImages/Img\ Placeholderforprof.png);
   background-size: cover;
 }
 
@@ -433,10 +429,10 @@ header {
   background:
     linear-gradient(
       180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 95.94%
+      rgba(200, 200, 200, 1) 100%,
+      rgba(200, 200, 200, 1) 95.94%
     ),
-    url(./PImages/card-five.png);
+    url(./PImages/Img\ Placeholderforprof.png);
   background-size: cover;
 }
 
@@ -448,12 +444,18 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  background: url(./PImages/Img\ Placeholderforprof.png);
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(200, 200, 200, 1) 100%,
+      rgba(200, 200, 200, 1) 100%
+    ),
+    url(./PImages/Img\ Placeholderforprof.png);
   background-size: cover;
 }
 
 .card1 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 2rem;
   font-weight: 200;
   line-height: 2.75rem;
@@ -466,7 +468,7 @@ header {
 }
 
 .cardtext {
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-size: 0.9375rem;
   font-weight: 200;
   line-height: 1.5rem;
@@ -508,24 +510,35 @@ li {
 .projects {
   width: 20.4375rem;
   height: 3rem;
-  left: 0;
-  top: 0;
+
+  /* left: 0;
+  top: 0; */
   border: none;
-  background: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  background: #8f3c00;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 1.0625rem;
   line-height: 1.5rem;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #fff;
+  color: #e5e5e5;
+}
+
+.projects:hover {
+  background: #291506 !important;
+  color: #e5e5e5 !important;
+}
+
+.projects:active {
+  background: #8f3c00 !important;
+  color: #e5e5e5 !important;
 }
 
 /* About me Section */
 
 .about-section {
   position: relative;
-  background: #1c1a19;
+  background: rgb(0, 0, 0);
   padding-top: 7.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -579,7 +592,7 @@ li {
   font-size: 4.5rem;
   font-weight: 400;
   line-height: 5.5rem;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   margin-left: 0;
   margin-right: 0;
 }
@@ -594,7 +607,7 @@ li {
   color: #f4f5f7;
   font-size: 1rem;
   margin-top: 1.5rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 1.5rem;
   text-align: left;
@@ -613,20 +626,19 @@ li {
   padding: 0.75rem;
   font-size: 1.0625rem;
   font-weight: 700;
-  color: #fff;
-  background-color: #ff6b00;
+  color: black;
+  background-color: red;
   margin-top: 1.875rem;
 }
 
 .my-resume-btn:hover {
-  border: 1px solid #f55800;
-  background-color: #fff5e1;
-  color: #f55800;
+  background-color: #fff5e1 !important;
+  color: #363636 !important;
 }
 
 .my-resume-btn:active {
-  background-color: #e05304;
-  color: #f4f1f0;
+  background-color: red !important;
+  color: black !important;
 }
 
 .my-resume-btn:disabled {
@@ -641,8 +653,8 @@ li {
   justify-content: center;
 }
 
-.list-style h2 {
-  font-family: 'InaiMathi', serif;
+.list-style h4 {
+  font-family: "InaiMathi", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 2rem;
@@ -699,7 +711,7 @@ li {
   left: 24px;
   top: 120px;
   border-radius: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 2rem;
   line-height: 44px;
   font-weight: 700;
@@ -719,7 +731,7 @@ form {
 }
 
 .contact-wrapper input::placeholder {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -748,7 +760,7 @@ form {
 }
 
 textarea::placeholder {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
@@ -766,20 +778,25 @@ textarea::placeholder {
   font-size: 17px;
   padding: 12px;
   font-weight: 700;
-  background-color: #f55800;
+  background-color: #8f3c00;
   color: #fff;
   margin-left: 100px;
   margin-top: 0;
 }
 
 .btn-contact:hover {
-  color: #f55800;
-  background-color: #fff5e1;
+  color: #8f3c00;
+  background-color: #fff;
 }
 
 .btn-contact:active {
-  background-color: #e05304;
-  color: #f4f1f0;
+  background-color: #8f3c00;
+  color: #fff;
+}
+
+.btn-contact:focus {
+  background-color: #8f3c00;
+  color: #fff;
 }
 
 .btn-contact:disabled {
@@ -797,7 +814,6 @@ textarea::placeholder {
   margin-right: 87px;
   margin-bottom: 40px;
   flex-direction: column;
-  justify-content: inline-block;
 }
 
 .hori-div {
@@ -816,7 +832,6 @@ textarea::placeholder {
   width: 200px;
   height: 40px;
   margin-top: 10px;
-  align-items: left;
   margin-left: 2px;
 }
 
@@ -828,7 +843,6 @@ textarea::placeholder {
   margin-top: 21px;
   border-radius: 10px;
   margin-bottom: 11px;
-  position: bottom center;
 }
 
 .portfolio-cards {
@@ -867,7 +881,6 @@ textarea::placeholder {
 
   .menu-items {
     display: flex;
-    justify-content: baseline;
     gap: 30px;
   }
 
@@ -875,7 +888,7 @@ textarea::placeholder {
     color: white;
     text-decoration: none;
     font-size: 15px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 
   .headline {
@@ -907,7 +920,7 @@ textarea::placeholder {
   .stext {
     width: 45.3%;
     height: 27px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -918,7 +931,7 @@ textarea::placeholder {
   }
 
   .description {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -971,10 +984,6 @@ textarea::placeholder {
     margin-right: 100px;
     grid-row-gap: 24px;
     grid-column-gap: 14px;
-  }
-
-  #cards {
-    gap: 0.2rem;
   }
 
   .projects {
@@ -1032,8 +1041,7 @@ textarea::placeholder {
     text-align: left;
     font-size: 18px;
     width: 510px;
-    border-radius: nullpx;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 300;
     line-height: 32px;
     color: #f4f5f7;
@@ -1064,8 +1072,7 @@ textarea::placeholder {
     padding-top: -5px;
     height: 256px;
     width: 420px;
-    border-radius: nullpx;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 
   .image-icons-footer {

@@ -26,6 +26,7 @@ Portfolio Project is a HTML and CSS Mobile view portfolio project for a web deve
 -The work version and about me version. 
 -The contact form.
 -The desktop version.
+-The accessibility version.
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -149,12 +150,6 @@ If you like this project, support and encourage me by staring it and leaving a c
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to appreciate and acknowledge the esteem Microverse program for providing me with necessary template files and detailed instructions.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-**No FAQ for now**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
