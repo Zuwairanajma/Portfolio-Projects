@@ -517,14 +517,14 @@ li {
   top: 0;
   border: none;
   /* background: lightgrey; */
-  background: #d9ffff;
+  background: #8f3c00;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 1.0625rem;
   line-height: 1.5rem;
   text-align: center;
   letter-spacing: 0.03em;
-  color: black;
+  color: #e5e5e5;
 }
 
 /* About me Section */
