@@ -398,7 +398,7 @@ header {
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 95.94%
     ),
-    url(./PImages/postone1.png);
+    url(./PImages/Img\ Placeholderforprof.png);
   background-size: cover;
 }
 
@@ -628,7 +628,7 @@ li {
   font-size: 1.0625rem;
   font-weight: 700;
   color: black;
-  background-color: #fff; /* I edit this color */
+  background-color: #8f3c00; /* I edit this color */
   margin-top: 1.875rem;
 }
 
