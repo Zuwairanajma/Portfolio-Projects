@@ -17,9 +17,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-
-  /* overflow-x: hidden !important; */
-}
+} 
 
 body {
   height: 100%;
@@ -320,8 +318,7 @@ header {
 .seeproject {
   border: none;
   width: 7.75rem;
-  /* background: red; */
-  background: #8f3c00; /*I Edit this color */
+  background: #8f3c00;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 1.0625rem;
@@ -340,7 +337,7 @@ header {
 }
 
 .seeproject:active {
-  background-color: #8f3c00; /* I Edit this color */
+  background-color: #8f3c00;
   color: #e5e5e5;
 }
 
@@ -513,8 +510,8 @@ li {
 .projects {
   width: 20.4375rem;
   height: 3rem;
-  left: 0;
-  top: 0;
+  /* left: 0;
+  top: 0; */
   border: none;
   background: #8f3c00;
   font-family: "Inter", sans-serif;
@@ -526,14 +523,14 @@ li {
   color: #e5e5e5;
 }
 
-.project:hover {
-  background: #e5e5e5;
-  color: #8f3c00; 
+.projects:hover {
+  background: #e5e5e5 !important;
+  color: #8f3c00 !important;
 }
 
-.project:active {
-  background: #8f3c00;
-  color: #e5e5e5; 
+.projects:active {
+  background: #8f3c00 !important;
+  color: #e5e5e5 !important;
 }
 
 /* About me Section */
@@ -636,14 +633,14 @@ li {
 }
 
 .my-resume-btn:hover {
-  border: 1px solid #363636; /* I edit this color */
-  background-color: #fff5e1;
-  color: #363636; /* I edit this color */
+  /* border: 1px solid #363636 ; I edit this color */
+  background-color: #fff5e1 !important;
+  color: #363636 !important; /* I edit this color */
 }
 
 .my-resume-btn:active {
-  background-color: red;
-  color: black /* I edit this color */
+  background-color: red !important;
+  color: black !important; /* I edit this color */
 }
 
 .my-resume-btn:disabled {
