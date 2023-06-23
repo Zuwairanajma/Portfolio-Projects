@@ -516,7 +516,6 @@ li {
   left: 0;
   top: 0;
   border: none;
-  /* background: lightgrey; */
   background: #8f3c00;
   font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -525,6 +524,16 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
   color: #e5e5e5;
+}
+
+.project:hover {
+  background: #e5e5e5;
+  color: #8f3c00; 
+}
+
+.project:active {
+  background: #8f3c00;
+  color: #e5e5e5; 
 }
 
 /* About me Section */
@@ -633,8 +642,8 @@ li {
 }
 
 .my-resume-btn:active {
-  background-color: #fff;
-  color: rgb(0, 0, 255); /* I edit this color */
+  background-color: red;
+  color: black /* I edit this color */
 }
 
 .my-resume-btn:disabled {
