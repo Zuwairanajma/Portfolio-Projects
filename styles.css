@@ -446,11 +446,18 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  background:
+  /* background:
     linear-gradient(
       180.45deg,
-      rgba(10, 10, 10, 0) 0.75%,
+      rgba(200, 200, 200, 0) 0.75%,
       rgba(20, 20, 20, 0.9) 95.94%
+    ),
+    url(./PImages/Img\ Placeholderforprof.png); */
+    background:
+    linear-gradient(
+      180.45deg,
+      rgba(200, 200, 200, 1) 90.75%,
+      rgba(80, 80, 150, 1) 95.94%
     ),
     url(./PImages/Img\ Placeholderforprof.png);
   background-size: cover;
@@ -515,15 +522,15 @@ li {
   left: 0;
   top: 0;
   border: none;
-  background: lightgrey;
-  /*background: #8f3c00;  i Edit this color */
+  /* background: lightgrey; */
+  background: #8f3c00;  /*i Edit this color*/
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 1.0625rem;
   line-height: 1.5rem;
   text-align: center;
   letter-spacing: 0.03em;
-  color: black;
+  color: #e5e5e5;;
 }
 
 /* About me Section */
