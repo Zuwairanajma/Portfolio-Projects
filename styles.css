@@ -41,14 +41,21 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
   margin-right: 6.25rem;
   position: fixed;
   z-index: 222;
 }
 
-.fa-bars {
+.logo-icon {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem 0.15rem;
+  align-items: center;
+}
+
+.hamburger {
   color: white;
+  margin-right: -340px;
 }
 
 .logo {
@@ -484,8 +491,6 @@ header {
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
-
-  /* z-index: 222; */
 }
 
 li {
@@ -641,7 +646,7 @@ li {
   justify-content: center;
 }
 
-.list-style h2 {
+.list-style h4 {
   font-family: 'InaiMathi', serif;
   font-style: normal;
   font-weight: 700;
@@ -837,6 +842,62 @@ textarea::placeholder {
   flex-direction: column;
 }
 
+.menu-list {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #3c3a39;
+  padding: 85px 24px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.5s;
+  transform: translateX(-200%);
+}
+
+.menu-list ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px 0;
+}
+
+.close {
+  transition: all 0.5s;
+  transform: translateX(-25rem);
+  width: 15px;
+  height: 15px;
+  z-index: 3;
+  margin-top: 50px;
+  margin-right: 25px;
+}
+
+.menu-list ul li a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 700;
+  color: #fff5e1;
+  padding-bottom: 15px;
+  transition: transform 0.5s;
+  transform: translateX(-100%);
+
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.menu-list ul li {
+  border-bottom: 1px solid #6f6c6b;
+  width: 98%;
+}
+
+.show {
+  display: block;
+}
+
 @media screen and (min-width: 768px) {
   *,
   *::after,
@@ -851,10 +912,12 @@ textarea::placeholder {
     height: 100%;
   }
 
-  .headbar {
-    display: flex;
-    width: 100%;
-    padding: 0 124px;
+  .fa-bars {
+    display: block;
+  }
+
+  .close {
+    display: none;
   }
 
   .hamburger {
@@ -869,6 +932,11 @@ textarea::placeholder {
     display: flex;
     justify-content: baseline;
     gap: 30px;
+    padding: 0 124px;
+  }
+
+  .menu-list {
+    display: none;
   }
 
   .menu-items a {
@@ -876,6 +944,20 @@ textarea::placeholder {
     text-decoration: none;
     font-size: 15px;
     font-family: 'Inter', sans-serif;
+  }
+
+  .logo {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 1em;
+    font-size: 18pt;
+    line-height: 1.5rem;
+    align-items: center;
+    text-align: center;
+    color: white;
+    order: 0;
+    margin-left: 6.525rem;
+    text-decoration: none;
   }
 
   .headline {
