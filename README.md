@@ -26,7 +26,7 @@ Portfolio Project is a HTML and CSS Mobile view portfolio project for a web deve
 -The work version and about me version. 
 -The contact form.
 -The desktop version.
-
+-Mobile Menu functionality.
 
 ## 🛠 Built With <a name="built-with"></a>
 ### Tech Stack <a name="tech-stack"></a>
