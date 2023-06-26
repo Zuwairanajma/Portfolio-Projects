@@ -17,8 +17,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-
-  /* overflow-x: hidden !important; */
 }
 
 body {
@@ -41,20 +39,27 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
   margin-right: 6.25rem;
   position: fixed;
   z-index: 222;
 }
 
-.fa-bars {
+.logo-icon {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem 0.15rem;
+  align-items: center;
+}
+
+.hamburger {
   color: white;
+  margin-right: -340px;
 }
 
 .logo {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
-  font-weight: 1em;
+  font-weight: 700;
   font-size: 18pt;
   line-height: 1.5rem;
   align-items: center;
@@ -71,7 +76,7 @@ header {
 
 .headline {
   overflow: hidden;
-  background-image: url(./PImages/Illustration.png);
+  background-image: url("./PImages/Illustration.png");
   background-color: #1c1a19;
   display: flex;
   flex-direction: column;
@@ -111,7 +116,7 @@ header {
 .stext {
   width: 87.2%;
   height: 1.6875rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.5rem;
@@ -125,7 +130,7 @@ header {
 
 .description {
   width: 87.2%;
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.25rem;
@@ -167,7 +172,7 @@ header {
   width: 1.25rem;
 }
 
-.My-Recent {
+.my-recent {
   display: flex;
   grid-template-columns: 100%;
   padding: 7.5rem 1.5rem;
@@ -228,7 +233,7 @@ header {
 
 .stories {
   width: 20.4375rem;
-  font-family: 'Inter', serif;
+  font-family: Inter, serif;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -237,14 +242,14 @@ header {
 }
 
 .css-stories {
-  font-family: 'Inter', serif;
+  font-family: Inter, serif;
   font-size: 0.9375rem;
   font-weight: 500;
   line-height: 1.25rem;
   color: #091e42;
-  padding: 0.625rem 0.75rem 0.625rem 0.75rem;
+  padding: 0.625rem 0.75rem;
   border: 1px solid #8993a4;
-  font-style: medium;
+  font-style: normal;
   height: 2.5rem;
   width: 3.4375rem;
   vertical-align: top;
@@ -256,8 +261,8 @@ header {
   width: 4.1875rem;
   height: 2.5rem;
   border: 1px solid #8993a4;
-  padding: 0.625rem 0.75rem 0.625rem 0.75rem;
-  font-family: 'Inter', serif;
+  padding: 0.625rem 0.75rem;
+  font-family: Inter, serif;
   font-size: 0.9375rem;
   font-weight: 500;
   line-height: 1.25rem;
@@ -269,8 +274,8 @@ header {
   width: 95px;
   height: 40px;
   border: 1px solid #8993a4;
-  padding: 0.625rem 0.75rem 0.625rem 0.75rem;
-  font-family: 'Inter', serif;
+  padding: 0.625rem 0.75rem;
+  font-family: Inter, serif;
   font-size: 0.9375rem;
   font-weight: 500;
   line-height: 1.25rem;
@@ -283,8 +288,8 @@ header {
   width: 61px;
   height: 40px;
   border: 1px solid #8993a4;
-  padding: 0.625rem 0.75rem 0.625rem 0.75rem;
-  font-family: 'Inter', serif;
+  padding: 0.625rem 0.75rem;
+  font-family: Inter, serif;
   font-size: 0.9375rem;
   font-weight: 500;
   line-height: 1.25rem;
@@ -294,7 +299,7 @@ header {
 }
 
 .btn1 {
-  font-family: 'Inter', serif;
+  font-family: Inter, serif;
   font-size: 0.9375rem;
   font-weight: 200;
   line-height: 1.25rem;
@@ -308,7 +313,7 @@ header {
   position: relative;
   display: flex;
   flex-direction: row;
-  align-items: left;
+  align-items: flex-start;
   justify-content: space-between;
   list-style: none;
   width: 20.4375rem;
@@ -323,7 +328,7 @@ header {
   border: none;
   width: 7.75rem;
   background: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
   font-weight: 700;
   font-size: 1.0625rem;
   line-height: 1.5rem;
@@ -361,10 +366,10 @@ header {
   background:
     linear-gradient(
       180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
+      rgb(38 38 38 / 0%) 0.75%,
+      rgb(38 38 38 / 90%) 61.94%
     ),
-    url(./PImages/HRsnip.png);
+    url("./PImages/HRsnip.png");
   background-size: cover;
 }
 
@@ -379,10 +384,10 @@ header {
   background:
     linear-gradient(
       180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
+      rgb(38 38 38 / 0%) 0.75%,
+      rgb(38 38 38 / 90%) 61.94%
     ),
-    url(./PImages/digitalmarket.png);
+    url("./PImages/digitalmarket.png");
   background-size: cover;
 }
 
@@ -397,10 +402,10 @@ header {
   background:
     linear-gradient(
       180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 95.94%
+      rgb(38 38 38 / 0%) 0.75%,
+      rgb(38 38 38 / 90%) 95.94%
     ),
-    url(./PImages/postone1.png);
+    url("./PImages/postone1.png");
   background-size: cover;
 }
 
@@ -415,10 +420,10 @@ header {
   background:
     linear-gradient(
       180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 95.94%
+      rgb(38 38 38 / 0%) 0.75%,
+      rgb(38 38 38 / 90%) 95.94%
     ),
-    url(./PImages/buildingdesignconstruction.png);
+    url("./PImages/buildingdesignconstruction.png");
   background-size: cover;
 }
 
@@ -433,10 +438,10 @@ header {
   background:
     linear-gradient(
       180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 95.94%
+      rgb(38 38 38 / 0%) 0.75%,
+      rgb(38 38 38 / 90%) 95.94%
     ),
-    url(./PImages/card-five.png);
+    url("./PImages/card-five.png");
   background-size: cover;
 }
 
@@ -448,7 +453,7 @@ header {
   width: 20.4375rem;
   height: 24.125rem;
   margin: 0;
-  background: url(./PImages/Img\ Placeholderforprof.png);
+  background: url("./PImages/Img\ Placeholderforprof.png");
   background-size: cover;
 }
 
@@ -466,7 +471,7 @@ header {
 }
 
 .cardtext {
-  font-family: 'Inter', serif;
+  font-family: Inter, serif;
   font-size: 0.9375rem;
   font-weight: 200;
   line-height: 1.5rem;
@@ -484,8 +489,6 @@ header {
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
-
-  /* z-index: 222; */
 }
 
 li {
@@ -494,7 +497,7 @@ li {
 
 .btn {
   padding: 0.625rem 0.75rem;
-  background: rgba(255, 255, 255, 0.24);
+  background: rgb(255 255 255 / 24%);
   color: #fff;
   width: 15.4375rem;
   height: 2.5rem;
@@ -512,7 +515,7 @@ li {
   top: 0;
   border: none;
   background: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
   font-weight: 700;
   font-size: 1.0625rem;
   line-height: 1.5rem;
@@ -526,15 +529,12 @@ li {
 .about-section {
   position: relative;
   background: #1c1a19;
-  padding-top: 7.5rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-bottom: 3.125rem;
+  padding: 7.5rem 1.5rem 3.125rem;
   height: 100%;
 }
 
 .about-section-content {
-  font-family: "Inter", sans-serif;
+  font-family: Inter, sans-serif;
   color: #fff;
   list-style: none;
   display: flex;
@@ -594,7 +594,7 @@ li {
   color: #f4f5f7;
   font-size: 1rem;
   margin-top: 1.5rem;
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
   font-weight: 400;
   line-height: 1.5rem;
   text-align: left;
@@ -641,8 +641,8 @@ li {
   justify-content: center;
 }
 
-.list-style h2 {
-  font-family: 'InaiMathi', serif;
+.list-style h4 {
+  font-family: InaiMathi, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 2rem;
@@ -690,7 +690,7 @@ li {
   left: -1px;
   top: 5887px;
   border-radius: 0;
-  padding: 120px 24px 120px 24px;
+  padding: 120px 24px;
 }
 
 .contact-header {
@@ -699,7 +699,7 @@ li {
   left: 24px;
   top: 120px;
   border-radius: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 2rem;
   line-height: 44px;
   font-weight: 700;
@@ -719,7 +719,7 @@ form {
 }
 
 .contact-wrapper input::placeholder {
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -742,13 +742,13 @@ form {
 .contact-wrapper form textarea {
   background: #fbf8f7;
   border: none;
-  padding: 10px 10px;
+  padding: 10px;
   height: 114px;
   width: 327px;
 }
 
 textarea::placeholder {
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
@@ -760,7 +760,7 @@ textarea::placeholder {
   width: 131px;
   height: 48px;
   align-self: center;
-  font-family: "Inter", sans-serif;
+  font-family: Inter, sans-serif;
   border: 1px solid transparent;
   line-height: 24px;
   font-size: 17px;
@@ -797,7 +797,7 @@ textarea::placeholder {
   margin-right: 87px;
   margin-bottom: 40px;
   flex-direction: column;
-  justify-content: inline-block;
+  justify-content: center;
 }
 
 .hori-div {
@@ -816,7 +816,7 @@ textarea::placeholder {
   width: 200px;
   height: 40px;
   margin-top: 10px;
-  align-items: left;
+  align-items: center;
   margin-left: 2px;
 }
 
@@ -828,7 +828,8 @@ textarea::placeholder {
   margin-top: 21px;
   border-radius: 10px;
   margin-bottom: 11px;
-  position: bottom center;
+
+  /* position: bottom center; */
 }
 
 .portfolio-cards {
@@ -837,7 +838,60 @@ textarea::placeholder {
   flex-direction: column;
 }
 
-@media screen and (min-width: 768px) {
+.menu-list {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #3c3a39;
+  padding: 85px 24px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.5s;
+  transform: translateX(-200%);
+}
+
+.menu-list ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px 0;
+}
+
+.close {
+  transition: all 0.5s;
+  transform: translateX(-25rem);
+  width: 15px;
+  height: 15px;
+  z-index: 3;
+  margin-top: 50px;
+  margin-right: 25px;
+}
+
+.menu-list ul li a {
+  text-decoration: none;
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 700;
+  color: #fff5e1;
+  padding-bottom: 15px;
+  transition: transform 0.5s;
+  transform: translateX(-100%);
+}
+
+.menu-list ul li {
+  border-bottom: 1px solid #6f6c6b;
+  width: 98%;
+}
+
+.show {
+  display: block;
+}
+
+@media screen and (width >= 768px) {
   *,
   *::after,
   *::before {
@@ -851,10 +905,12 @@ textarea::placeholder {
     height: 100%;
   }
 
-  .headbar {
-    display: flex;
-    width: 100%;
-    padding: 0 124px;
+  .fa-bars {
+    display: block;
+  }
+
+  .close {
+    display: none;
   }
 
   .hamburger {
@@ -867,20 +923,39 @@ textarea::placeholder {
 
   .menu-items {
     display: flex;
-    justify-content: baseline;
+    justify-content: center;
     gap: 30px;
+    padding: 0 124px;
+  }
+
+  .menu-list {
+    display: none;
   }
 
   .menu-items a {
     color: white;
     text-decoration: none;
     font-size: 15px;
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
+  }
+
+  .logo {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18pt;
+    line-height: 1.5rem;
+    align-items: center;
+    text-align: center;
+    color: white;
+    order: 0;
+    margin-left: 6.525rem;
+    text-decoration: none;
   }
 
   .headline {
-    overflow: none;
-    background-image: url(./PImages/Illustration-header@2x.png);
+    overflow: hidden;
+    background-image: url("./PImages/Illustration-header@2x.png");
     background-color: #1c1a19;
     display: flex;
     background-position: right top;
@@ -907,7 +982,7 @@ textarea::placeholder {
   .stext {
     width: 45.3%;
     height: 27px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -918,7 +993,7 @@ textarea::placeholder {
   }
 
   .description {
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -969,8 +1044,7 @@ textarea::placeholder {
     height: 100%;
     margin-left: 100px;
     margin-right: 100px;
-    grid-row-gap: 24px;
-    grid-column-gap: 14px;
+    grid-gap: 24px 14px;
   }
 
   #cards {
@@ -1032,8 +1106,7 @@ textarea::placeholder {
     text-align: left;
     font-size: 18px;
     width: 510px;
-    border-radius: nullpx;
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     font-weight: 300;
     line-height: 32px;
     color: #f4f5f7;
@@ -1064,8 +1137,7 @@ textarea::placeholder {
     padding-top: -5px;
     height: 256px;
     width: 420px;
-    border-radius: nullpx;
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
   }
 
   .image-icons-footer {

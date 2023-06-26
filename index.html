@@ -8,39 +8,50 @@
     <script src = "https://kit.fontawesome.com/1935d064dd.js" 
     crossorigin = "anonymous">
    </script>
-    <title>Zuwairanajma Website Mobile Version</title>
+    <title>Zuwairanajma Portfolio Website</title>
 </head>
 <body>
   <!-- Toolbar Header Section Starts -->
   <header> 
     <div id= "head-wrap" class="headbar">
+      <div class="logo-icon">
       <a href ="#" class="logo">ZUWAIRA</a>
-<nav class ="headbar-menu">
-  <div class="hamburger"><i class="fas fa-bars fa-lg"></i></div>
+      <div class="hamburger"><i class="fas fa-bars fa-lg"></i></div>
+    </div>
+<nav> 
 <ul class="menu-items">
   <li><a href="#portfolio">Portfolio</a></li>
   <li><a href="#about">About</a></li>
   <li><a href="#contact">Contact</a></li>
-  <li><img src="PImages/Icon - Mail.png" alt=""></li>
+  <li><img src="PImages/iconMail.png" alt="Mail Icon Image"></li>
 </ul>
-</nav></div>
+</nav>
+<nav class="menu-list">
+  <ul>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+  <img class="close" src="PImages/close.png" alt="Close Icon Image">
+</div>
 </header>
 <!-- Toolbar Header Section ends -->
 
 <main>
  <!-- Headline Section Starts -->
-    <section class="headline">
+    <section class="headline" id="portfolio">
     <div class="container_text">
         <h1 class="ptext">Hey There. <br> I'm Zuwaira.</h1>
-        <h3 class="stext">I'm a Software Developer</h3>
+        <h2 class="stext">I'm a Software Developer</h2>
         <p class="description">I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
             don’t hesitate to contact me.
         </p>
         <nav class="icon-wrap">
             <ul class="navicon">
                   <li><a href="https://github.com/Zuwairanajma"><img class= "github" src="PImages/GitHub.png" alt="Github Icon"></a></li>
-                  <li><a href="https://www.linkedin.com/in/zuwaira-sadiq-566b891b0?"><img class= "linkedin"src="PImages/Linkedin.png" alt="Linkedin Icon"></a></li> 
-                  <li><a href="#"><img class= "angeli"src="PImages/VectorH.png" alt="Angellist Icon"></a> </li>
+                  <li><a href="https://www.linkedin.com/in/zuwaira-sadiq-566b891b0?"><img class= "linkedin" src="PImages/Linkedin.png" alt="Linkedin Icon"></a></li> 
+                  <li><a href="#"><img class= "angeli" src="PImages/VectorH.png" alt="Angellist Icon"></a></li>
                   <li><a href="https://twitter.com/@SadiqJuwairiyya"><img class= "twitter" src="PImages/Twitter.png" alt="Twitter Icon"></a></li>
                   <li><a href="#"><img class= "medium" src="PImages/Medium.png" alt="Medium Icon"></a></li>
             </ul>
@@ -51,15 +62,15 @@
   
     <!-- Recent Works Section Start -->
 
-    <section id="My-Recent" class="My-Recent">
+    <section id="my-recent" class="my-recent">
       <div id="recent-works_container" class="recent-works">
-      <h5 id="my-work" class="my-work">My Recent Works</h5>
+      <h2 id="my-work" class="my-work">My Recent Works</h2>
       <hr class="divider">
       </div>
       <div id="multip" class="multipost">
-    <img class = "placeholder" src="PImages/Img Placeholder.png" alt="">
+    <img class = "placeholder" src="PImages/imgPlaceholder.png" alt="Placeholder Image">
     <div class="post">
-     <h3 id="multi" class="multi">Multi-Post Stories</h3>
+     <h2 id="multi" class="multi">Multi-Post Stories</h2>
       <p id="stories" class="stories">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
         <ul id="buttons1" class="buttonss1">
            <li class="css-stories">CSS</li>
@@ -72,17 +83,17 @@
     </div>
       <div class="portfolio-cards">
   <div class="cardworks" id="cards">
-          <div class="card-image1" id="card-image"></div>
+          <div class="card-image1" id="card-imageA"></div>
             <h3 class="card1">Professional Art Printing Data</h3>
             <p class="cardtext">Profesional Art Printing DataA daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
           <ul  class = "card-button">
             <li class="btn btn-primary btn-lg">HTML</li>
             <li class="btn btn-primary btn-lg">Bootstrap</li>
             <li class="btn btn-primary btn-lg">Ruby</li></ul>
-        <button class ="projects btn-primary btn-lg">See project</button>  
+        <button id="projects" class ="projects">See project</button>  
         </div>
-        <div class="cardworks1" id="cards">
-              <div class="card-image2" id="card-image"></div>
+        <div class="cardworks1" id="cardsA">
+              <div class="card-image2" id="card-imageB"></div>
                <h3 class="card1">Human Resource Analysis</h3>
                <p class="cardtext">Profesional Art Printing DataA daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>   
                <ul  class = "card-button">     
@@ -90,10 +101,10 @@
                 <li class="btn btn-primary btn-lg">Bootstrap</li>        
                 <li class="btn btn-primary btn-lg">Ruby</li>
               </ul>     
-              <button class = "projects btn-primary btn-lg">See project</button>      
+              <button id="projects" class = "projects">See project</button>      
              </div>     
-             <div class="cardworks2" id="cards">                    
-              <div class="card-image3" id="card-image"></div>             
+             <div class="cardworks2" id="cardsB">                    
+              <div class="card-image3" id="card-imageC"></div>             
               <h3 class="card1">Digital Marketing</h3>             
               <p class="cardtext">Profesional Art Printing DataA daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>           
               <ul  class = "card-button">             
@@ -101,10 +112,10 @@
                 <li class="btn btn-primary btn-lg">Bootstrap</li>                
                 <li class="btn btn-primary btn-lg">Ruby</li>
               </ul>             
-              <button class = "projects btn-primary btn-lg">See project</button>              
+              <button id="projects" class = "projects">See project</button>              
             </div>             
-            <div class="cardworks3" id="cards">               
-                <div class="card-image4" id="card-image"></div>          
+            <div class="cardworks3" id="cardsC">               
+                <div class="card-image4" id="card-imageD"></div>          
                  <h3 class="card1">Graphic Design</h3>           
                  <p class="cardtext">Profesional Art Printing DataA daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>         
                  <ul class = "card-button">           
@@ -112,10 +123,10 @@
                   <li class="btn btn-primary btn-lg">Bootstrap</li>              
                   <li class="btn btn-primary btn-lg">Ruby</li>
                 </ul>           
-                  <button class = "projects btn-primary btn-lg">See project</button>             
+                  <button id="projects" class = "projects">See project</button>             
                 </div>           
-                <div class="cardworks4" id="cards">                              
-                <div class="card-image5" id="card-image"></div>                   
+                <div class="cardworks4" id="cardsD">                              
+                <div class="card-image5" id="card-imageE"></div>                   
                 <h3 class="card1">Building Design & Construction</h3>                  
                <p class="cardtext">Profesional Art Printing DataA daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>  
              <ul class="card-button">
@@ -123,28 +134,27 @@
           <li class="btn btn-primary btn-lg">Bootstrap</li>
           <li class="btn btn-primary btn-lg">Ruby</li>
         </ul>
-       <button class = "projects btn-primary btn-lg">See project</button>  
+       <button id="projects" class="projects">See project</button>  
        </div>
-       <div class="cardworks5" id="cards">
-       <div class="card-image6" id="card-image"></div>
+       <div class="cardworks5" id="cardsE">
+       <div class="card-image6" id="card-imageF"></div>
         <h3 class="card1">Professional Art Printing Data</h3>
         <p class="cardtext">Profesional Art Printing DataA daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
       <ul class = "card-button">
             <li class="btn btn-primary btn-lg">HTML</li>
             <li class="btn btn-primary btn-lg">Bootstrap</li>
             <li class="btn btn-primary btn-lg">Ruby</li></ul>
-        <button class = "projects btn-primary btn-lg">See project</button>  
+        <button id="projects" class= "projects">See project</button>  
        </div>
-      </div>
       </div>
    </section> 
     <!--Recent Works Section End  -->
 
     <!-- About me section -->
-    <section id="about-section" class="about-section">
+    <section id="about" class="about-section">
       <div class="about-introduction-content">
         <div class="about-text">
-          <h2 class="about-heading">About me</h2>
+          <h3 class="about-heading">About me</h3>
           <p class="about-section-p">Hey there! I can help you build a product, feature or website. Look
           through some of my work and experience! If you like what you see and
           have a project you need coded, don't hesitate to contact me.
@@ -162,7 +172,7 @@
       <ul class="language-section">
         <li class="list-style">
           <div class="diamond"></div>
-          <h2>Language</h2>
+          <h4>Language</h4>
         </li>
         <ul class="about-section-content">
           <li>Javascript</li>
@@ -174,7 +184,7 @@
       <ul class="language-section">
         <li class="list-style">
           <div class="square"></div>
-          <h2>Frameworks</h2>
+          <h4>Frameworks</h4>
         </li>
         <ul class="about-section-content">
           <li>React.js</li>
@@ -185,7 +195,7 @@
       <ul class="language-section">
         <li class="list-style" id="skills">
           <div class="circle"></div>
-          <h2 class="skills">Skills</h2>
+          <h4 class="skills">Skills</h4>
         </li>
         <ul class="about-section-content">
           <li>Database Management</li>
@@ -197,23 +207,26 @@
       </div>
 </section>
  <!-- About me Section End -->
- <section id="contact-detail" class="form-container">
+ <section id="contact" class="form-container">
   <div class="contact-wrapper">
     <div>
-      <h2 class="contact-header">
+      <p class="contact-header">
         I'm always interested in hearing about new projects, so if you'd
         like to chat please get in touch.
-      </h2>
+      </p>
     </div>
     <form id="contactForm" action="https://formspree.io/f/xzbqnzke" method="POST">
       <ul class="contact-fields">
         <li>
+          <label for="fullName" hidden>Full Name</label>
           <input type="text" id="full-name" name="fullName" placeholder="Full name" maxlength="30" required />
         </li>
         <li>
+          <label for="email" hidden>Email</label>
           <input type="email" name="email" placeholder="Email address" required />
         </li>
         <li>
+          <label for="message" hidden>Message</label>
           <textarea class="text" name="message" id="form-message" placeholder="Write me something..." maxlength="500"
           required></textarea>          
         </li>
@@ -253,5 +266,8 @@
   </div>
 </section>
 </main>
+<script src="mobileMenu.js"></script>
+<script src="popup.js"></script>
+<script src="formValidation.js"></script>
 </body>
 </html>
