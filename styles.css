@@ -887,6 +887,11 @@ textarea::placeholder {
   margin-right: 25px;
 }
 
+.modal-buttons a {
+  text-decoration: none;
+  color: white;
+}
+
 .menu-list ul li a {
   text-decoration: none;
   font-family: Inter, sans-serif;
@@ -897,6 +902,13 @@ textarea::placeholder {
   padding-bottom: 15px;
   transition: transform 0.5s;
   transform: translateX(-100%);
+}
+
+.techList li {
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+  background-color: #ffffff3a;
+  font-family: "Inter", sans-serif;
 }
 
 .menu-list ul li {
@@ -935,13 +947,6 @@ textarea::placeholder {
   list-style: none;
   margin-bottom: 20px;
   margin-top: 45px;
-}
-
-.techList li {
-  border: 1px solid #8993a4;
-  padding: 10px 12px;
-  background-color: #ffffff3a;
-  font-family: "Inter", sans-serif;
 }
 
 .popup-heading {
@@ -1045,11 +1050,6 @@ textarea::placeholder {
   background: url(./PImages/close_detail.png) no-repeat center/cover;
   width: 12px;
   height: 12px;
-}
-
-.modal-buttons a {
- text-decoration: none;
- color: white;
 }
 
 @media screen and (width >= 768px) {
@@ -1355,22 +1355,18 @@ textarea::placeholder {
   .project-details-popup {
     padding: 3rem 7.3rem;
     overflow: scroll;
-    /* width: 1156px; */
-    /*   */
   }
 
   .techList {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+    margin-top: 15px;
   }
+
   .techList li {
     border: 1px solid #8993a4;
     padding: 10px 12px;
     background-color: #ffffff3a;
     font-family: "Inter", sans-serif;
-  }
-
-  .modal-buttons {
-    justify-content: flex-start;
   }
 
   .pop-head {
@@ -1389,6 +1385,7 @@ textarea::placeholder {
 
   .popup-content {
     flex-direction: row;
+    margin-top: -20px;
   }
 
   .popup-lower {
@@ -1468,8 +1465,10 @@ textarea::placeholder {
     margin-top: -10px;
   }
 
-  .modal-buttons  {
-    margin-top: 40px;
+  .modal-buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: -12px;
+    justify-content: flex-start;
   }
-  
 }
