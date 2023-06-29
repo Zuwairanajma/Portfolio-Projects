@@ -1025,6 +1025,16 @@ textarea::placeholder {
   height: 12px;
 }
 
+.form-validation-text {
+  color: red;
+  background: bisque;
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+  line-height: 24px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
 @media screen and (width >= 768px) {
   *,
   *::after,

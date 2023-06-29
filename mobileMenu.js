@@ -322,3 +322,51 @@ window.onload = function load() {
   cardDiv4.addEventListener('mouseout', changeDefOut4);
   cardDiv5.addEventListener('mouseout', changeDefOut5);
 };
+
+const errorMessage = document.querySelector('#alert');
+const emailInput = document.getElementById('emailInput');
+const nameValue = document.querySelector('#full-name');
+const textValue = document.querySelector('#form-message');
+const submit = document.querySelector('#btn-msg');
+
+function errorAlert (event) {
+  errorMessage.className = '';
+  if (emailInput.value === emailInput.value.toUpperCase()) {
+    errorMessage.classList.add('form-validation-text');
+    errorMessage.textContent = '*The email address should be in lowercase.';
+    event.preventDefault();
+  } else if (
+    emailInput.value === ''
+    || nameValue.value === ''
+    || textValue.value === ''
+  ) {
+    errorMessage.classList.add('form-validation-msg');
+    errorMessage.textContent = '*All fields are required! Please enter a value';
+    event.preventDefault();
+  }
+  setTimeout(() => {
+    errorMessage.textContent = '';
+  }, 3000);
+}
+
+submit.addEventListener('click', errorAlert);
+
+// 
+// function handleSubmit(event) {
+//   event.preventDefault();
+
+//   const emailInput = document.getElementById('email');
+//   const email = emailInput.value.toLowerCase();
+
+//   if (email === emailInput.value) {
+//     document.getElementById('Form').submit();
+//     document.getElementById('Form').reset();
+//   } else {
+//     const errorMessage = 'The Email has to be in lower case, Form is not submitted';
+//     const errorElement = document.getElementById('error');
+//     errorElement.textContent = errorMessage;
+//   }
+// }
+
+// const form = document.getElementById('Form');
+// form.addEventListener('submit', handleSubmit);
