@@ -351,22 +351,22 @@ function errorAlert(event) {
 
 submit.addEventListener('click', errorAlert);
 
-//
-// function handleSubmit(event) {
-//   event.preventDefault();
 
-//   const emailInput = document.getElementById('email');
-//   const email = emailInput.value.toLowerCase();
+function handleSubmit(event) {
+  event.preventDefault();
 
-//   if (email === emailInput.value) {
-//     document.getElementById('Form').submit();
-//     document.getElementById('Form').reset();
-//   } else {
-//     const errorMessage = 'The Email has to be in lower case, Form is not submitted';
-//     const errorElement = document.getElementById('error');
-//     errorElement.textContent = errorMessage;
-//   }
-// }
+  const emailInput = document.getElementById('email');
+  const email = emailInput.value.toLowerCase();
 
-// const form = document.getElementById('Form');
-// form.addEventListener('submit', handleSubmit);
+  if (email === emailInput.value) {
+    document.getElementById('Form').submit();
+    document.getElementById('Form').reset();
+  } else {
+    const errorMessage = 'The Email has to be in lower case, Form is not submitted';
+    const errorElement = document.getElementById('error');
+    errorElement.textContent = errorMessage;
+  }
+}
+
+const form = document.getElementById('Form');
+form.addEventListener('submit', handleSubmit);
