@@ -524,6 +524,23 @@ li {
   color: #fff;
 }
 
+.projects:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.projects:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.projects:disabled {
+  border: 1px solid transparent;
+  color: #5b5957;
+  background-color: #e9a994;
+}
+
 /* About me Section */
 
 .about-section {
@@ -903,18 +920,28 @@ textarea::placeholder {
   height: 205vh;
   width: 100vw;
   position: fixed;
-  top: 0;
+  top: 20px;
   z-index: 5000;
   display: none;
+  align-self: center;
 }
 
-.tech-list {
+.techList {
   display: flex;
   bottom: 1rem;
   flex-direction: row;
   gap: 1rem;
   justify-content: flex-start;
   list-style: none;
+  margin-bottom: 20px;
+  margin-top: 45px;
+}
+
+.techList li {
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+  background-color: #ffffff3a;
+  font-family: "Inter", sans-serif;
 }
 
 .popup-heading {
@@ -942,18 +969,11 @@ textarea::placeholder {
   align-items: center;
 }
 
-.project-details-header {
-  display: flex;
-  flex-direction: column;
-  gap: 33px 0;
-  align-self: stretch;
-}
-
 .modal-buttons {
   display: flex;
   justify-content: space-between;
   gap: 0 20px;
-  margin-top: 150px;
+  margin-top: 20px;
 }
 
 .popup-content {
@@ -977,12 +997,14 @@ textarea::placeholder {
   background: url(./PImages/Icon-Export.png) no-repeat center center/cover;
   width: 24px;
   height: 24px;
+  display: block;
 }
 
 .source-icon {
   background: url(./PImages/Icon-GitHub.png) no-repeat center center/cover;
   width: 24px;
   height: 24px;
+  display: block;
 }
 
 .modal-buttons div {
@@ -1023,6 +1045,11 @@ textarea::placeholder {
   background: url(./PImages/close_detail.png) no-repeat center/cover;
   width: 12px;
   height: 12px;
+}
+
+.modal-buttons a {
+ text-decoration: none;
+ color: white;
 }
 
 @media screen and (width >= 768px) {
@@ -1327,9 +1354,15 @@ textarea::placeholder {
 
   .project-details-popup {
     padding: 3rem 7.3rem;
+    overflow: scroll;
+    /* width: 1156px; */
+    /*   */
   }
 
-  .tech-list li {
+  .techList {
+    margin-bottom: 50px;
+  }
+  .techList li {
     border: 1px solid #8993a4;
     padding: 10px 12px;
     background-color: #ffffff3a;
@@ -1434,4 +1467,9 @@ textarea::placeholder {
   .cardtext {
     margin-top: -10px;
   }
+
+  .modal-buttons  {
+    margin-top: 40px;
+  }
+  
 }

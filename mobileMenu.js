@@ -108,7 +108,7 @@ projects.forEach((project) => {
               <i id="close-icon-detail" alt="icon"></i>
           </div>
           <div>
-            <ul class="tech-list">
+            <ul class="techList">
               <li>${project.technologyList[0]}</li>
               <li>${project.technologyList[1]}</li>
               <li>${project.technologyList[2]}</li>
