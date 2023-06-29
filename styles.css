@@ -1018,12 +1018,6 @@ textarea::placeholder {
   background-color: #e9a994;
 }
 
-/* .close-icon-detail {
-  background: url(./PImages/close_detail.png) no-repeat center/cover;
-  width: 12px;
-  height: 12px;
-} */
-
 #close-icon-detail {
   display: block;
   background: url(./PImages/close_detail.png) no-repeat center/cover;
