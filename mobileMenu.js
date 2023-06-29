@@ -329,7 +329,7 @@ const nameValue = document.querySelector('#full-name');
 const textValue = document.querySelector('#form-message');
 const submit = document.querySelector('#btn-msg');
 
-function errorAlert (event) {
+function errorAlert(event) {
   errorMessage.className = '';
   if (emailInput.value === emailInput.value.toUpperCase()) {
     errorMessage.classList.add('form-validation-text');
@@ -351,7 +351,7 @@ function errorAlert (event) {
 
 submit.addEventListener('click', errorAlert);
 
-// 
+//
 // function handleSubmit(event) {
 //   event.preventDefault();
 
