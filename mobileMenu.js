@@ -34,7 +34,7 @@ const projects = [
   {
     id: 2,
     title: 'Professional Art Printing Data',
-    image: 'PImages/Placeholderforprof.png',
+    image: 'PImages/Snapshoot_Portfolio.png',
     description: `<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p>
 
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>`,
@@ -45,7 +45,7 @@ const projects = [
   {
     id: 3,
     title: 'Human Resource Analysis',
-    image: 'PImages/HRsnip.png',
+    image: 'PImages/Snapshoot_Portfolio.png',
     description: `<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p>
 
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>`,
@@ -56,7 +56,7 @@ const projects = [
   {
     id: 4,
     title: 'Digital Marketing',
-    image: 'PImages/digitalmarket.png',
+    image: 'PImages/Snapshoot_Portfolio.png',
     description: `<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p>
 
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>`,
@@ -67,7 +67,7 @@ const projects = [
   {
     id: 5,
     title: 'Graphic Design',
-    image: 'PImages/postone1.png',
+    image: 'PImages/Snapshoot_Portfolio.png',
     description: `<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p>
 
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>`,
@@ -78,7 +78,7 @@ const projects = [
   {
     id: 6,
     title: 'Building Design and Construction',
-    image: 'PImages/buildingdesignconstruction.png',
+    image: 'PImages/Snapshoot_Portfolio.png',
     description: `<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p>
 
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>`,
@@ -89,7 +89,7 @@ const projects = [
   {
     id: 7,
     title: 'Professional Art Printing Data',
-    image: 'PImages/card-five.png',
+    image: 'PImages/Snapshoot_Portfolio.png',
     description: `<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p>
 
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>`,
@@ -234,6 +234,7 @@ window.onload = function load() {
       document.querySelector('.project-details-popup').classList.toggle('show');
       document.getElementById('headline').scrollIntoView();
       document.querySelector('#close-icon-detail').classList.toggle('close-icon-detail');
+      document.querySelector('.project-details-popup').classList.toggle('show');
     });
   });
 

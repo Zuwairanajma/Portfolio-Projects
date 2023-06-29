@@ -899,7 +899,7 @@ textarea::placeholder {
 .project-details-popup {
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   backdrop-filter: blur(5px);
-  overflow: hidden;
+  overflow: scroll;
   height: 205vh;
   width: 100vw;
   position: fixed;
