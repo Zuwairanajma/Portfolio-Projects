@@ -351,7 +351,6 @@ function errorAlert(event) {
 
 submit.addEventListener('click', errorAlert);
 
-
 function handleSubmit(event) {
   event.preventDefault();
 
