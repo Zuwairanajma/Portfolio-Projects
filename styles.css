@@ -524,6 +524,23 @@ li {
   color: #fff;
 }
 
+.projects:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.projects:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.projects:disabled {
+  border: 1px solid transparent;
+  color: #5b5957;
+  background-color: #e9a994;
+}
+
 /* About me Section */
 
 .about-section {
@@ -870,6 +887,11 @@ textarea::placeholder {
   margin-right: 25px;
 }
 
+.modal-buttons a {
+  text-decoration: none;
+  color: white;
+}
+
 .menu-list ul li a {
   text-decoration: none;
   font-family: Inter, sans-serif;
@@ -880,6 +902,17 @@ textarea::placeholder {
   padding-bottom: 15px;
   transition: transform 0.5s;
   transform: translateX(-100%);
+}
+
+.techList li {
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+  background-color: #ffffff3a;
+  font-family: "Inter", sans-serif;
+  height: 40px;
+  font-size: 13px;
+  color: #3c3a39;
+  font-weight: 600;
 }
 
 .menu-list ul li {
@@ -900,21 +933,27 @@ textarea::placeholder {
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   backdrop-filter: blur(5px);
   overflow: scroll;
-  height: 205vh;
-  width: 100vw;
+  height: 718px;
+  width: 343px;
   position: fixed;
-  top: 0;
+  top: 60px;
   z-index: 5000;
   display: none;
+  align-self: center;
+
+  /* padding: 16px; */
+  margin-left: 16px;
 }
 
-.tech-list {
+.techList {
   display: flex;
   bottom: 1rem;
   flex-direction: row;
   gap: 1rem;
   justify-content: flex-start;
   list-style: none;
+  margin-bottom: 20px;
+  margin-top: 45px;
 }
 
 .popup-heading {
@@ -942,18 +981,11 @@ textarea::placeholder {
   align-items: center;
 }
 
-.project-details-header {
-  display: flex;
-  flex-direction: column;
-  gap: 33px 0;
-  align-self: stretch;
-}
-
 .modal-buttons {
   display: flex;
-  justify-content: space-between;
   gap: 0 20px;
-  margin-top: 150px;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 .popup-content {
@@ -969,20 +1001,27 @@ textarea::placeholder {
 .popup-lower {
   display: flex;
   flex-direction: column;
-  align-self: self-start;
-  flex-wrap: wrap;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #344563;
+  width: 331px;
+  padding-right: 10px;
 }
 
 .live-icon {
   background: url(./PImages/Icon-Export.png) no-repeat center center/cover;
   width: 24px;
   height: 24px;
+  display: block;
 }
 
 .source-icon {
   background: url(./PImages/Icon-GitHub.png) no-repeat center center/cover;
   width: 24px;
   height: 24px;
+  display: block;
 }
 
 .modal-buttons div {
@@ -999,6 +1038,7 @@ textarea::placeholder {
   padding: 12px;
   font-weight: 700;
   background-color: #f55800;
+  height: 48px;
 }
 
 .btn-details:hover {
@@ -1021,8 +1061,9 @@ textarea::placeholder {
 #close-icon-detail {
   display: block;
   background: url(./PImages/close_detail.png) no-repeat center/cover;
-  width: 12px;
+  width: 20px;
   height: 12px;
+  margin-right: 20px;
 }
 
 .form-validation-text {
@@ -1338,17 +1379,28 @@ textarea::placeholder {
 
   .project-details-popup {
     padding: 3rem 7.3rem;
+    overflow: scroll;
+    width: 100%;
+    height: 631px;
+    top: 20px;
+    bottom: 20px;
   }
 
-  .tech-list li {
+  .techList {
+    margin-bottom: 70px;
+    margin-top: 15px;
+    gap: 8px;
+  }
+
+  .techList li {
     border: 1px solid #8993a4;
     padding: 10px 12px;
     background-color: #ffffff3a;
     font-family: "Inter", sans-serif;
-  }
-
-  .modal-buttons {
-    justify-content: flex-start;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #3c3a39;
   }
 
   .pop-head {
@@ -1361,16 +1413,25 @@ textarea::placeholder {
 
   .project-details-inner img {
     width: 50%;
-    max-height: 448px;
+    max-height: 383px;
     max-width: 660px;
   }
 
   .popup-content {
     flex-direction: row;
+    margin-top: -20px;
   }
 
   .popup-lower {
     justify-content: space-between;
+    width: 427px;
+    height: 400px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+  }
+
+  .pp1 {
+    margin-bottom: 0;
   }
 
   .project-details-header {
@@ -1454,5 +1515,12 @@ textarea::placeholder {
     height: 40px;
     width: 380px;
     margin-bottom: 20px;
+
+  .modal-buttons {
+    margin-top: 40px;
+    display: flex;
+    gap: -12px;
+    justify-content: flex-start;
+    margin-bottom: 0;
   }
 }
