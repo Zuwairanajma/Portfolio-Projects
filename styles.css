@@ -929,8 +929,8 @@ textarea::placeholder {
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   backdrop-filter: blur(5px);
   overflow: scroll;
-  height: 205vh;
-  width: 100vw;
+  height: 100vh;
+  width: 327px;
   position: fixed;
   top: 20px;
   z-index: 5000;
@@ -1355,6 +1355,7 @@ textarea::placeholder {
   .project-details-popup {
     padding: 3rem 7.3rem;
     overflow: scroll;
+    width: 100%;
   }
 
   .techList {
