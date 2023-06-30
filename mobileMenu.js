@@ -24,9 +24,9 @@ const projects = [
     id: 1,
     title: 'Multi-Post Stories',
     image: 'PImages/Snapshoot_Portfolio.png',
-    description: `<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p>
+    description1: '<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>',
 
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>`,
+    description2: '<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>',
     technologyList: ['Html', 'Ruby on Rails', 'Javascript'],
     live: 'https://zuwairanajma.github.io/Portfolio-Projects/',
     source: 'https://github.com/Zuwairanajma/Portfolio-Projects',
@@ -35,9 +35,9 @@ const projects = [
     id: 2,
     title: 'Professional Art Printing Data',
     image: 'PImages/Snapshoot_Portfolio.png',
-    description: `<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p>
+    description1: '<p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.</p>',
 
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>`,
+    description2: '<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>',
     technologyList: ['Html', 'Ruby on Rails', 'Javascript'],
     live: 'https://zuwairanajma.github.io/Portfolio-Projects/',
     source: 'https://github.com/Zuwairanajma/Portfolio-Projects',
@@ -46,9 +46,9 @@ const projects = [
     id: 3,
     title: 'Human Resource Analysis',
     image: 'PImages/Snapshoot_Portfolio.png',
-    description: `<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p>
+    description1: '<p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.</p>',
 
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>`,
+    description2: '<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>',
     technologyList: ['Html', 'Ruby on Rails', 'Javascript'],
     live: 'https://zuwairanajma.github.io/Portfolio-Projects/',
     source: 'https://github.com/Zuwairanajma/Portfolio-Projects',
@@ -57,9 +57,9 @@ const projects = [
     id: 4,
     title: 'Digital Marketing',
     image: 'PImages/Snapshoot_Portfolio.png',
-    description: `<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p>
+    description1: '<p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.</p>',
 
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>`,
+    description2: '<p>Digital marketing, also called online marketing, is the promotion of brands to connect with potential customers using the internet and other forms of digital communication.</p>',
     technologyList: ['Html', 'Ruby on Rails', 'Javascript'],
     live: 'https://zuwairanajma.github.io/Portfolio-Projects/',
     source: 'https://github.com/Zuwairanajma/Portfolio-Projects',
@@ -68,9 +68,9 @@ const projects = [
     id: 5,
     title: 'Graphic Design',
     image: 'PImages/Snapshoot_Portfolio.png',
-    description: `<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p>
+    description1: '<p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.</p>',
 
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>`,
+    description2: '<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>',
     technologyList: ['Html', 'Ruby on Rails', 'Javascript'],
     live: 'https://zuwairanajma.github.io/Portfolio-Projects/',
     source: 'https://github.com/Zuwairanajma/Portfolio-Projects',
@@ -79,9 +79,9 @@ const projects = [
     id: 6,
     title: 'Building Design and Construction',
     image: 'PImages/Snapshoot_Portfolio.png',
-    description: `<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p>
+    description1: '<p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.</p>',
 
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>`,
+    description2: '<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>',
     technologyList: ['Html', 'Ruby on Rails', 'Javascript'],
     live: 'https://zuwairanajma.github.io/Portfolio-Projects/',
     source: 'https://github.com/Zuwairanajma/Portfolio-Projects',
@@ -90,9 +90,9 @@ const projects = [
     id: 7,
     title: 'Professional Art Printing Data',
     image: 'PImages/Snapshoot_Portfolio.png',
-    description: `<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p>
+    description1: '<p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.</p>',
 
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>`,
+    description2: '<p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>',
     technologyList: ['Html', 'Ruby on Rails', 'Javascript'],
     live: 'https://zuwairanajma.github.io/Portfolio-Projects/',
     source: 'https://github.com/Zuwairanajma/Portfolio-Projects',
@@ -118,7 +118,9 @@ projects.forEach((project) => {
       <div class="popup-content">
           <img src=${project.image} alt="Portfolio snapshot image">
           <div class="popup-lower">
-              <p>${project.description}</p>
+              
+              <p class="pp1">${project.description1}</p>
+              <p class="pp1">${project.description2}</p>
               <div class="modal-buttons">
                   <div class="btn-details"><a target="_blank" href=${project.live}>See Live</a><i class="live-icon"></i></div>
                   <div class="btn-details"><a target="_blank" href=${project.source}>See Source</a><i class="source-icon"></i></div>
@@ -158,7 +160,7 @@ window.onload = function load() {
 <div class="cardworks" id="cards">
       <div class="card-image1" id="card-imageA"></div>
         <h3 class="card1">Professional Art Printing Data</h3>
-        <p class="cardtext">Profesional Art Printing DataA daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+        <p class="cardtext">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
       <ul  class = "card-button" id="cardlist0">
         <li class="btn btn-primary btn-lg">HTML</li>
         <li class="btn btn-primary btn-lg">Bootstrap</li>
