@@ -280,6 +280,3 @@ function errorAlert(e) {
   }
 }
 submit.addEventListener('click', errorAlert);
-
-};
- 
