@@ -1033,6 +1033,7 @@ textarea::placeholder {
   line-height: 24px;
   font-size: 17px;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 
 @media screen and (width >= 768px) {
@@ -1443,5 +1444,15 @@ textarea::placeholder {
 
   .cardtext {
     margin-top: -10px;
+  }
+
+  .form-validation-text {
+    text-align: center;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 40px;
+    width: 380px;
+    margin-bottom: 20px;
   }
 }
