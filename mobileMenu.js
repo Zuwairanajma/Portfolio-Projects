@@ -259,7 +259,7 @@ const submit = document.querySelector('.btn-contact');
 
 function errorAlert(e) {
   errorMessage.className = '';
-  if (emailInput.value === emailInput.value.toUpperCase()) {
+  if (emailInput.value !== emailInput.value.toLowerCase()) {
     errorMessage.classList.add('form-validation-text');
     errorMessage.textContent = '*The email address should be in lowercase.';
     e.preventDefault();
