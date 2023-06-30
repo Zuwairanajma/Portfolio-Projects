@@ -524,6 +524,23 @@ li {
   color: #fff;
 }
 
+.projects:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.projects:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.projects:disabled {
+  border: 1px solid transparent;
+  color: #5b5957;
+  background-color: #e9a994;
+}
+
 /* About me Section */
 
 .about-section {
@@ -870,6 +887,11 @@ textarea::placeholder {
   margin-right: 25px;
 }
 
+.modal-buttons a {
+  text-decoration: none;
+  color: white;
+}
+
 .menu-list ul li a {
   text-decoration: none;
   font-family: Inter, sans-serif;
@@ -882,6 +904,17 @@ textarea::placeholder {
   transform: translateX(-100%);
 }
 
+.techList li {
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+  background-color: #ffffff3a;
+  font-family: "Inter", sans-serif;
+  height: 40px;
+  font-size: 13px;
+  color: #3c3a39;
+  font-weight: 600;
+}
+
 .menu-list ul li {
   border-bottom: 1px solid #6f6c6b;
   width: 98%;
@@ -889,6 +922,148 @@ textarea::placeholder {
 
 .show {
   display: block;
+}
+
+.project-details-popup.show {
+  display: block;
+}
+
+/* ====================================== */
+.project-details-popup {
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  backdrop-filter: blur(5px);
+  overflow: scroll;
+  height: 718px;
+  width: 343px;
+  position: fixed;
+  top: 60px;
+  z-index: 5000;
+  display: none;
+  align-self: center;
+
+  /* padding: 16px; */
+  margin-left: 16px;
+}
+
+.techList {
+  display: flex;
+  bottom: 1rem;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: flex-start;
+  list-style: none;
+  margin-bottom: 20px;
+  margin-top: 45px;
+}
+
+.popup-heading {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.project-details-inner {
+  margin: auto;
+  background-color: #fff;
+  padding: 15px 16px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 3px 0 black;
+}
+
+.pop-head {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-buttons {
+  display: flex;
+  gap: 0 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.popup-content img {
+  border: 2px inset #eee;
+}
+
+.popup-lower {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #344563;
+  width: 331px;
+  padding-right: 10px;
+}
+
+.live-icon {
+  background: url(./PImages/Icon-Export.png) no-repeat center center/cover;
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.source-icon {
+  background: url(./PImages/Icon-GitHub.png) no-repeat center center/cover;
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.modal-buttons div {
+  align-items: center;
+  gap: 15px;
+  display: flex;
+}
+
+.btn-details {
+  font-family: "Inter", sans-serif;
+  border: 1px solid transparent;
+  line-height: 24px;
+  font-size: 17px;
+  padding: 12px;
+  font-weight: 700;
+  background-color: #f55800;
+  height: 48px;
+}
+
+.btn-details:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.btn-details:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.btn-details:disabled {
+  border: 1px solid transparent;
+  color: #5b5957;
+  background-color: #e9a994;
+}
+
+#close-icon-detail {
+  display: block;
+  background: url(./PImages/close_detail.png) no-repeat center/cover;
+  width: 20px;
+  height: 12px;
+  margin-right: 20px;
 }
 
 @media screen and (width >= 768px) {
@@ -1056,7 +1231,7 @@ textarea::placeholder {
   }
 
   .card-button {
-    margin-top: 2px;
+    margin-top: -15px;
     margin-bottom: 15px;
   }
 
@@ -1189,5 +1364,143 @@ textarea::placeholder {
 
   .circle {
     margin-left: -125px;
+  }
+
+  .project-details-popup {
+    padding: 3rem 7.3rem;
+    overflow: scroll;
+    width: 100%;
+    height: 631px;
+    top: 20px;
+    bottom: 20px;
+  }
+
+  .techList {
+    margin-bottom: 70px;
+    margin-top: 15px;
+    gap: 8px;
+  }
+
+  .techList li {
+    border: 1px solid #8993a4;
+    padding: 10px 12px;
+    background-color: #ffffff3a;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #3c3a39;
+  }
+
+  .pop-head {
+    justify-content: space-between;
+  }
+
+  .project-details-inner {
+    padding: 24px;
+  }
+
+  .project-details-inner img {
+    width: 50%;
+    max-height: 383px;
+    max-width: 660px;
+  }
+
+  .popup-content {
+    flex-direction: row;
+    margin-top: -20px;
+  }
+
+  .popup-lower {
+    justify-content: space-between;
+    width: 427px;
+    height: 400px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+  }
+
+  .pp1 {
+    margin-bottom: 0;
+  }
+
+  .project-details-header {
+    gap: 10px;
+  }
+
+  .popup-lower p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+  }
+
+  .cardworks:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+  }
+
+  .cardworks2:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+  }
+
+  .cardworks3:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+  }
+
+  .cardworks4:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+  }
+
+  .cardworks5:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+  }
+
+  .cardworks1:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+  }
+
+  .cardworks:hover .projects {
+    transform: scale(1.05);
+    transition: all 0.5s;
+  }
+
+  .cardworks2:hover .projects {
+    display: block;
+  }
+
+  .cardworks3:hover .projects {
+    display: block;
+  }
+
+  .cardworks4:hover .projects {
+    display: block;
+  }
+
+  .cardworks5:hover .projects {
+    display: block;
+  }
+
+  .cardworks1:hover .projects {
+    display: block;
+  }
+
+  .card1 {
+    margin-top: -10px;
+  }
+
+  .cardtext {
+    margin-top: -10px;
+  }
+
+  .modal-buttons {
+    margin-top: 40px;
+    display: flex;
+    gap: -12px;
+    justify-content: flex-start;
+    margin-bottom: 0;
   }
 }
