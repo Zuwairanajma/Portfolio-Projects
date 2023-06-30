@@ -1066,6 +1066,17 @@ textarea::placeholder {
   margin-right: 20px;
 }
 
+.form-validation-text {
+  color: red;
+  background: bisque;
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+  line-height: 24px;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
 @media screen and (width >= 768px) {
   *,
   *::after,
@@ -1495,6 +1506,15 @@ textarea::placeholder {
   .cardtext {
     margin-top: -10px;
   }
+
+  .form-validation-text {
+    text-align: center;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 40px;
+    width: 380px;
+    margin-bottom: 20px;
 
   .modal-buttons {
     margin-top: 40px;

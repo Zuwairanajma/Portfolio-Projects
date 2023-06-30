@@ -135,23 +135,24 @@
         like to chat please get in touch.
       </p>
     </div>
-    <form id="contactForm" action="https://formspree.io/f/xzbqnzke" method="POST">
+    <form  action="https://formspree.io/f/xzbqnzke" method="POST">
       <ul class="contact-fields">
         <li>
           <label for="fullName" hidden>Full Name</label>
-          <input type="text" id="full-name" name="fullName" placeholder="Full name" maxlength="30" required />
+          <input type="text" id="full-name" class="name-input" name="fullName" placeholder="Full name" maxlength="30" required />
         </li>
         <li>
           <label for="email" hidden>Email</label>
-          <input type="email" name="email" placeholder="Email address" required />
+          <input type="email" name="email" placeholder="Email address" required  id="emailInput" class="emailInput"/>
         </li>
         <li>
           <label for="message" hidden>Message</label>
           <textarea class="text" name="message" id="form-message" placeholder="Write me something..." maxlength="500"
-          required></textarea>          
+          required></textarea>
+          <span id ="#alert" class="alert"></span>          
         </li>
         <li class="contact-btns">
-            <button id="btn-msg" type="submit" class="project-details btn-contact">
+            <button id="btn-msg" type="submit" class="btn-contact">
               Get in touch
             </button>
         </li>
@@ -187,7 +188,5 @@
 </section>
 </main>
 <script src="mobileMenu.js"></script>
-<script src="popup.js"></script>
-<script src="formValidation.js"></script>
 </body>
 </html>

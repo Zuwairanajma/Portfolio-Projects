@@ -19,6 +19,7 @@ close.addEventListener('click', hideMenu);
 navItems.forEach((item) => {
   item.addEventListener('click', hideMenu);
 });
+
 const projects = [
   {
     id: 1,
@@ -250,77 +251,35 @@ window.onload = function load() {
       section.scrollIntoView({ behavior: 'smooth' });
     }
   });
-
-  // const cardButton1 = document.getElementById('projects-3');
-  // const ul1 = document.getElementById('cardlist1');
-  // const cardButton2 = document.getElementById('projects-4');
-  // const ul2 = document.getElementById('cardlist2');
-  // const cardButton3 = document.getElementById('projects-5');
-  // const ul3 = document.getElementById('cardlist3');
-  // const cardButton4 = document.getElementById('projects-6');
-  // const ul4 = document.getElementById('cardlist4');
-  // const cardButton5 = document.getElementById('projects-7');
-  // const ul5 = document.getElementById('cardlist5');
-  // const cardDiv1 = document.querySelector('cardworks1');
-  // const cardDiv2 = document.querySelector('cardworks2');
-  // const cardDiv3 = document.querySelector('cardworks3');
-  // const cardDiv4 = document.querySelector('.cardworks4');
-  // const cardDiv5 = document.querySelector('.cardworks5');
-
-  // const changeDefOver1 = () => {
-  //   ul1.style.display = 'none';
-  //   cardButton1.style.display = 'block';
-  // };
-
-  // const changeDefOut1 = () => {
-  //   ul1.style.display = 'flex';
-  //   cardButton1.style.display = 'none';
-  // };
-
-  // const changeDefOver2 = () => {
-  //   ul2.style.display = 'none';
-  //   cardButton2.style.display = 'block';
-  // };
-
-  // const changeDefOut2 = () => {
-  //   ul2.style.display = 'flex';
-  //   cardButton2.style.display = 'none';
-  // };
-  // const changeDefOver3 = () => {
-  //   ul3.style.display = 'none';
-  //   cardButton3.style.display = 'block';
-  // };
-
-  // const changeDefOut3 = () => {
-  //   ul3.style.display = 'flex';
-  //   cardButton3.style.display = 'none';
-  // };
-  // const changeDefOver4 = () => {
-  //   ul4.style.display = 'none';
-  //   cardButton4.style.display = 'block';
-  // };
-
-  // const changeDefOut4 = () => {
-  //   ul4.style.display = 'flex';
-  //   cardButton4.style.display = 'none';
-  // };
-  // const changeDefOver5 = () => {
-  //   ul5.style.display = 'none';
-  //   cardButton5.style.display = 'block';
-  // };
-
-  // const changeDefOut5 = () => {
-  //   ul5.style.display = 'flex';
-  //   cardButton5.style.display = 'none';
-  // };
-  // cardDiv1.addEventListener('mouseover', changeDefOver1);
-  // cardDiv2.addEventListener('mouseover', changeDefOver2);
-  // cardDiv3.addEventListener('mouseover', changeDefOver3);
-  // cardDiv4.addEventListener('mouseover', changeDefOver4);
-  // cardDiv5.addEventListener('mouseover', changeDefOver5);
-  // cardDiv1.addEventListener('mouseout', changeDefOut1);
-  // cardDiv2.addEventListener('mouseout', changeDefOut2);
-  // cardDiv3.addEventListener('mouseout', changeDefOut3);
-  // cardDiv4.addEventListener('mouseout', changeDefOut4);
-  // cardDiv5.addEventListener('mouseout', changeDefOut5);
 };
+
+const errorMessage = document.querySelector('.alert');
+const emailInput = document.querySelector('.emailInput');
+const nameValue = document.querySelector('.name-input');
+const textValue = document.querySelector('.text');
+const submit = document.querySelector('.btn-contact');
+
+function errorAlert(e) {
+  errorMessage.className = '';
+  if (emailInput.value !== emailInput.value.toLowerCase()) {
+    errorMessage.classList.add('form-validation-text');
+    errorMessage.textContent = '*The email address should be in lowercase.';
+    e.preventDefault();
+  } else if (
+    emailInput.value === ''
+    || nameValue.value === ''
+    || textValue.value === ''
+  ) {
+    errorMessage.classList.add('form-validation-msg');
+    errorMessage.textContent = '*All fields are required! Please enter a value';
+    e.preventDefault();
+
+    setTimeout(() => {
+      errorMessage.textContent = '';
+    }, 3000);
+  }
+}
+submit.addEventListener('click', errorAlert);
+
+};
+ 
