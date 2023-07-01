@@ -1503,6 +1503,11 @@ textarea::placeholder {
     margin-top: -10px;
   }
 
+  .contact-btns {
+    display: flex;
+    gap: 12px;
+  }
+
   .cardtext {
     margin-top: -10px;
   }
@@ -1516,11 +1521,12 @@ textarea::placeholder {
     width: 380px;
     margin-bottom: 20px;
 
-  .modal-buttons {
-    margin-top: 40px;
-    display: flex;
-    gap: -12px;
-    justify-content: flex-start;
-    margin-bottom: 0;
+    .modal-buttons {
+      margin-top: 40px;
+      display: flex;
+      gap: -12px;
+      justify-content: flex-start;
+      margin-bottom: 0;
+    }
   }
 }

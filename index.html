@@ -139,7 +139,7 @@
       <ul class="contact-fields">
         <li>
           <label for="fullName" hidden>Full Name</label>
-          <input type="text" id="full-name" class="name-input" name="fullName" placeholder="Full name" maxlength="30" required />
+          <input type="text" id="full-name" aria-label="fullName" class="name-input" name="fullName" placeholder="Full name" minlength="1" maxlength="30" required />
         </li>
         <li>
           <label for="email" hidden>Email</label>
@@ -149,12 +149,16 @@
           <label for="message" hidden>Message</label>
           <textarea class="text" name="message" id="form-message" placeholder="Write me something..." maxlength="500"
           required></textarea>
-          <span id ="#alert" class="alert"></span>          
+          <span id ="alert" class="alert"></span>          
         </li>
         <li class="contact-btns">
             <button id="btn-msg" type="submit" class="btn-contact">
               Get in touch
             </button>
+            <button id="reset" type="reset" class="btn-contact">Reset</button>
+        </li>
+        <li>
+          
         </li>
       </ul>
     </form>
